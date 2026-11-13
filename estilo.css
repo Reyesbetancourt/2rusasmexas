@@ -85,3 +85,4 @@ dialog::backdrop{background:#15233f99}.ficha{padding:1.6rem}.ficha h3{font-size:
 @media (max-width:800px){.hero{grid-template-columns:1fr}.hero-img{max-width:420px;margin:auto}.nav nav{display:none}.como ol{grid-template-columns:1fr}.sticker{width:80px}.s2{left:-10px}.burbuja span{display:none}.burbuja{padding:.35rem}}
 @media (max-width:480px){.logo small{display:none}.nav{gap:.6rem}.nav .btn-sm{font-size:.82rem;padding:.5em .85em}}
 .m .btn-sm{white-space:normal;text-align:center;justify-content:center;max-width:100%}
+.m a:not(.btn){color:inherit;text-decoration:underline;word-break:break-all}

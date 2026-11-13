@@ -53,7 +53,13 @@
   function burbuja(quien, texto, wa) {
     const el = document.createElement("div");
     el.className = "m " + quien;
-    el.textContent = texto;
+    // Texto seguro (sin innerHTML): **negritas** y enlaces https clicables
+    String(texto).split(/(\*\*[^*]+\*\*|https?:\/\/[^\s)]+)/g).forEach((parte) => {
+      if (!parte) return;
+      if (/^\*\*[^*]+\*\*$/.test(parte)) { const b = document.createElement("strong"); b.textContent = parte.slice(2, -2); el.appendChild(b); }
+      else if (/^https?:\/\//.test(parte)) { const a = document.createElement("a"); a.href = parte; a.target = "_blank"; a.rel = "noopener"; a.textContent = parte.replace(/^https?:\/\//, ""); el.appendChild(a); }
+      else el.appendChild(document.createTextNode(parte));
+    });
     if (wa) {
       const a = document.createElement("a");
       a.className = "btn btn-wa btn-sm"; a.href = wa; a.target = "_blank"; a.rel = "noopener";
