@@ -86,3 +86,7 @@ dialog::backdrop{background:#15233f99}.ficha{padding:1.6rem}.ficha h3{font-size:
 @media (max-width:480px){.logo small{display:none}.nav{gap:.6rem}.nav .btn-sm{font-size:.82rem;padding:.5em .85em}}
 .m .btn-sm{white-space:normal;text-align:center;justify-content:center;max-width:100%}
 .m a:not(.btn){color:inherit;text-decoration:underline;word-break:break-all}
+.m.escribiendo{display:flex;gap:4px;align-items:center;padding:.75rem .9rem;opacity:1;font-style:normal}
+.m.escribiendo span{width:7px;height:7px;border-radius:50%;background:var(--tinta2);opacity:.35;animation:punto 1.2s infinite}
+.m.escribiendo span:nth-child(2){animation-delay:.2s}.m.escribiendo span:nth-child(3){animation-delay:.4s}
+@keyframes punto{0%,80%,100%{opacity:.25;transform:translateY(0)}40%{opacity:.9;transform:translateY(-3px)}}

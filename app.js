@@ -104,11 +104,23 @@
   });
 
   let ocupado = false;
-  async function enviar(texto) {
-    texto = texto.trim(); if (!texto || ocupado) return;
-    ocupado = true; rapidas.hidden = true;
-    burbuja("yo", texto); historial.push({ q: "yo", t: texto });
-    const esp = burbuja("ella escribiendo", "Nadia está escribiendo…");
+  const pendientes = []; // lo que la persona escribe mientras Nadia contesta: se junta y se manda después
+  async function enviar(texto, yaMostrado = false) {
+    texto = texto.trim(); if (!texto) return;
+    rapidas.hidden = true;
+    if (!yaMostrado) {
+      // Muestra al instante y espera 1.5 s por si la persona sigue escribiendo (junta mensajes seguidos)
+      burbuja("yo", texto); historial.push({ q: "yo", t: texto }); guardar();
+      pendientes.push(texto);
+      clearTimeout(enviar.t);
+      if (!ocupado) enviar.t = setTimeout(() => { if (!ocupado && pendientes.length) enviar(pendientes.splice(0).join("\n"), true); }, 1500);
+      return;
+    }
+    ocupado = true;
+    const esp = document.createElement("div");
+    esp.className = "m ella escribiendo"; esp.setAttribute("aria-label", "Nadia está escribiendo");
+    esp.innerHTML = "<span></span><span></span><span></span>";
+    msgs.appendChild(esp); msgs.scrollTop = msgs.scrollHeight;
     let r = null;
     if (C.FUNCION_URL) {
       try {
@@ -126,8 +138,10 @@
       r = { respuesta: "Para darte la mejor información te paso directo con un asesor de Viajes Zvezda. Toca el botón y envía tu mensaje 👇",
             whatsapp: waLink(`Hola Viajes Zvezda, vengo de parte de 2RusasMexas. Código: ${codigoLocal}\n${PAQUETE ? "Me interesa: " + nombre(PAQUETE) + "\n" : ""}${texto}`) };
     }
-    esp.remove(); burbuja("ella", r.respuesta, r.whatsapp);
-    historial.push({ q: "ella", t: r.respuesta, wa: r.whatsapp || null }); guardar(); ocupado = false;
+    esp.remove();
+    if (r.respuesta) { burbuja("ella", r.respuesta, r.whatsapp); historial.push({ q: "ella", t: r.respuesta, wa: r.whatsapp || null }); guardar(); }
+    ocupado = false;
+    if (pendientes.length) enviar(pendientes.splice(0).join("\n"), true);
   }
   $("#form").addEventListener("submit", (e) => { e.preventDefault(); const i = $("#txt"); enviar(i.value); i.value = ""; });
 })();
