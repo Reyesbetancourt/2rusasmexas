@@ -1,1247 +1,1129 @@
 [
-  {
-    "slug": "encantos-de-rusia",
-    "url": "https://russia.com.mx/viajes-rusia/encantos-de-rusia",
-    "nombre": "Encantos de Rusia",
-    "region": "Rusia",
-    "dias": 8,
-    "noches": 7,
-    "ciudades": [
-      "Moscú",
-      "San Petersburgo"
-    ],
-    "salidas": "Llegadas diarias del 1 de abril al 31 de octubre de 2026",
-    "modalidad": "Clásico",
-    "idioma_guia": "Español",
-    "resumen": "El clásico de las dos capitales rusas en 8 días, con guía hispanohablante y tren de alta velocidad Sapsan entre Moscú y San Petersburgo. Se puede empezar por cualquiera de las dos ciudades.",
-    "incluye": [
-      "Hoteles 4★ (Safmar Lesnaya Moscú, Park Inn Nevsky San Petersburgo, o similares)",
-      "Desayuno diario",
-      "Traslados individuales con guía",
-      "Tren diurno de alta velocidad San Petersburgo/Moscú en clase turista",
-      "Visitas del itinerario",
-      "Guía de habla hispana"
-    ],
-    "no_incluye": [
-      "Boletos de avión internacionales",
-      "Otros servicios no mencionados como incluidos"
-    ],
-    "destacados": [
-      "Plaza Roja, San Basilio y Kremlin",
-      "Armería del Kremlin",
-      "Tren Sapsan Moscú–San Petersburgo",
-      "Museo Hermitage",
-      "Petergof, el Versalles ruso",
-      "Fortaleza de San Pedro y San Pablo"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada",
-      "Día 2: Moscú — City tour panorámico",
-      "Día 3: Moscú — Kremlin, catedrales y Armería",
-      "Día 4: Moscú → San Petersburgo — Tren Sapsan",
-      "Día 5: San Petersburgo — City tour y Fortaleza Pedro y Pablo",
-      "Día 6: San Petersburgo — Hermitage",
-      "Día 7: San Petersburgo — Petergof — el Versalles ruso",
-      "Día 8: San Petersburgo — Salida",
-      "(Variante llegando a San Petersburgo: mismos servicios en orden inverso, con tren Sapsan el día 5)"
-    ],
-    "precio_publicado": {
-      "moneda": "EUR",
-      "desde_por_persona": 1750,
-      "base": "6+ pax, hab. doble (temporada alta 2026)",
-      "notas": [
-        "Precios por persona en euros; tabla: 1 pax 3 750; 2 pax 2 660; 3 pax 2 100; 4 pax 1 950; 5 pax 1 850; 6+ pax 1 750",
-        "Suplemento individual 650 EUR (desde 2 pax)",
-        "No incluye boletos de avión internacionales",
-        "Del 22 al 30 de agosto y del 15 al 18 de septiembre en Moscú (grandes eventos) y del 3 al 6 de junio de 2026 en San Petersburgo (Foro Económico) no se garantizan las tarifas",
-        "Por inestabilidad del rublo los precios están sujetos a cambio y se reconfirman al confirmar el tour"
-      ]
+ {
+  "slug": "encantos-de-rusia",
+  "url": "https://russia.com.mx/viajes-rusia/encantos-de-rusia",
+  "nombre": "Encantos de Rusia",
+  "region": "Rusia",
+  "dias": 8,
+  "noches": 7,
+  "ciudades": [
+   "Moscú",
+   "San Petersburgo"
+  ],
+  "salidas": "Llegadas diarias de abril a octubre (fechas 2027 por confirmar)",
+  "modalidad": "Clásico",
+  "idioma_guia": "Español",
+  "resumen": "El clásico de las dos capitales rusas en 8 días, con guía hispanohablante y tren de alta velocidad Sapsan entre Moscú y San Petersburgo. Se puede empezar por cualquiera de las dos ciudades.",
+  "incluye": [
+   "Hoteles 4★ (Safmar Lesnaya Moscú, Park Inn Nevsky San Petersburgo, o similares)",
+   "Desayuno diario",
+   "Traslados individuales con guía",
+   "Tren diurno de alta velocidad San Petersburgo/Moscú en clase turista",
+   "Visitas del itinerario",
+   "Guía de habla hispana"
+  ],
+  "no_incluye": [
+   "Boletos de avión internacionales",
+   "Otros servicios no mencionados como incluidos"
+  ],
+  "destacados": [
+   "Plaza Roja, San Basilio y Kremlin",
+   "Armería del Kremlin",
+   "Tren Sapsan Moscú–San Petersburgo",
+   "Museo Hermitage",
+   "Petergof, el Versalles ruso",
+   "Fortaleza de San Pedro y San Pablo"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada",
+   "Día 2: Moscú — City tour panorámico",
+   "Día 3: Moscú — Kremlin, catedrales y Armería",
+   "Día 4: Moscú → San Petersburgo — Tren Sapsan",
+   "Día 5: San Petersburgo — City tour y Fortaleza Pedro y Pablo",
+   "Día 6: San Petersburgo — Hermitage",
+   "Día 7: San Petersburgo — Petergof — el Versalles ruso",
+   "Día 8: San Petersburgo — Salida",
+   "(Variante llegando a San Petersburgo: mismos servicios en orden inverso, con tren Sapsan el día 5)"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve"
+ },
+ {
+  "slug": "anillo-de-oro",
+  "url": "https://russia.com.mx/viajes-rusia/anillo-de-oro",
+  "nombre": "Anillo de Oro",
+  "region": "Rusia",
+  "dias": 8,
+  "noches": 7,
+  "ciudades": [
+   "Moscú",
+   "Sergiev Posad",
+   "Suzdal",
+   "Vladimir",
+   "San Petersburgo"
+  ],
+  "salidas": "Llegadas a Moscú · 2027",
+  "modalidad": "Privado",
+  "idioma_guia": "Español",
+  "resumen": "Moscú y San Petersburgo más las ciudades históricas de Sergiev Posad, Suzdal y Vladimir en 8 días, con servicios privados y guía en español. Incluye clase de pintura de matrioskas y tren rápido a San Petersburgo.",
+  "incluye": [
+   "Hoteles 4★ (Safmar Lesnaya, Pushkarskaya Sloboda, Cosmos Nevskiy, o similares)",
+   "Desayuno diario",
+   "2 almuerzos (Sergiev Posad y Vladimir) y 1 cena en Suzdal",
+   "Traslados individuales con guía",
+   "Tren diurno de alta velocidad a San Petersburgo en clase turista",
+   "Visitas del itinerario",
+   "Guía de habla hispana"
+  ],
+  "no_incluye": [
+   "Boletos de avión internacionales",
+   "Otros servicios no mencionados como incluidos"
+  ],
+  "destacados": [
+   "Kremlin, catedrales y Armería",
+   "Monasterio de la Trinidad de San Sergio con clase magistral de pintura de matrioskas",
+   "Suzdal y Vladimir",
+   "Tren rápido a San Petersburgo",
+   "Hermitage y Fortaleza",
+   "Petrodvorets"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada",
+   "Día 2: Moscú — City tour panorámico",
+   "Día 3: Moscú — Kremlin, catedrales y Armería",
+   "Día 4: Moscú → Sergiev Posad → Suzdal — Monasterio de la Trinidad y matrioskas",
+   "Día 5: Suzdal → Vladimir → Moscú → San Petersburgo — Suzdal, Vladimir y tren rápido",
+   "Día 6: San Petersburgo — Hermitage, city tour y Fortaleza",
+   "Día 7: San Petersburgo — Petrodvorets",
+   "Día 8: San Petersburgo — Salida"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve"
+ },
+ {
+  "slug": "sinfonia-rusa",
+  "url": "https://russia.com.mx/viajes-rusia/sinfonia-rusa",
+  "nombre": "Sinfonía Rusa (privado)",
+  "region": "Rusia",
+  "dias": 8,
+  "noches": 7,
+  "ciudades": [
+   "Moscú",
+   "San Petersburgo"
+  ],
+  "salidas": "Salidas privadas todo el año",
+  "modalidad": "Privado",
+  "idioma_guia": "Español",
+  "resumen": "Versión privada del clásico Moscú–San Petersburgo, con chofer y guía exclusivos y ritmo a la medida del viajero.",
+  "incluye": [
+   "Vuelos internacionales con conexión y traslados",
+   "Hospedaje en hoteles 4★ con desayuno ruso",
+   "Guía hispanohablante en cada ciudad",
+   "Tour panorámico, Kremlin y Plaza Roja en Moscú",
+   "Hermitage y palacios de los zares en San Petersburgo",
+   "Asistencia 24/7 desde CDMX"
+  ],
+  "no_incluye": [
+   "Visa rusa (cotizada por separado, podemos tramitarla)",
+   "Comidas no incluidas en el programa",
+   "Propinas a guías y choferes",
+   "Excursiones opcionales"
+  ],
+  "destacados": [
+   "Chofer y guía exclusivos",
+   "Hoteles boutique (según la descripción)",
+   "City tour de Moscú",
+   "Kremlin y Plaza Roja",
+   "Hermitage y palacios de los zares"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada y city tour",
+   "Día 2: Moscú — Visitas y tiempo libre",
+   "Día 3: Moscú — Visitas y tiempo libre",
+   "Día 4: Moscú — Última actividad y traslado",
+   "Día 5: San Petersburgo — Llegada y city tour",
+   "Día 6: San Petersburgo — Visitas y tiempo libre",
+   "Día 7: San Petersburgo — Visitas y tiempo libre",
+   "Día 8: San Petersburgo — Visitas y tiempo libre"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
+  "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
+ },
+ {
+  "slug": "troyka-rusa",
+  "url": "https://russia.com.mx/viajes-rusia/troyka-rusa",
+  "nombre": "Troyka Rusa — Anillo de Oro",
+  "region": "Rusia",
+  "dias": 11,
+  "noches": 10,
+  "ciudades": [
+   "Moscú",
+   "Sergiev Posad",
+   "Vladimir",
+   "Suzdal",
+   "San Petersburgo"
+  ],
+  "salidas": "De abril a octubre",
+  "modalidad": "Clásico",
+  "idioma_guia": "Español",
+  "resumen": "Las dos capitales rusas más las ciudades históricas del Anillo de Oro en 11 días: la Rusia ortodoxa y zarista en una sola ruta.",
+  "incluye": [
+   "Vuelos internacionales con conexión y traslados",
+   "Hospedaje en hoteles 4★ con desayuno ruso",
+   "Guía hispanohablante en cada ciudad",
+   "Tour panorámico, Kremlin y Plaza Roja en Moscú",
+   "Hermitage y palacios de los zares en San Petersburgo",
+   "Asistencia 24/7 desde CDMX"
+  ],
+  "no_incluye": [
+   "Visa rusa (cotizada por separado, podemos tramitarla)",
+   "Comidas no incluidas en el programa",
+   "Propinas a guías y choferes",
+   "Excursiones opcionales"
+  ],
+  "destacados": [
+   "Moscú",
+   "Sergiev Posad",
+   "Vladimir",
+   "Suzdal",
+   "San Petersburgo"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada y city tour",
+   "Día 2: Moscú — Última actividad y traslado",
+   "Día 3: Sergiev Posad — Llegada y city tour",
+   "Día 4: Sergiev Posad — Última actividad y traslado",
+   "Día 5: Vladimir — Llegada y city tour",
+   "Día 6: Vladimir — Última actividad y traslado",
+   "Día 7: Suzdal — Llegada y city tour",
+   "Día 8: Suzdal — Última actividad y traslado",
+   "Día 9: San Petersburgo — Llegada y city tour",
+   "Día 10: San Petersburgo — Visitas y tiempo libre",
+   "Día 11: San Petersburgo — Visitas y tiempo libre"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
+  "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
+ },
+ {
+  "slug": "balalayka",
+  "url": "https://russia.com.mx/viajes-rusia/balalayka",
+  "nombre": "Balalayka",
+  "region": "Rusia",
+  "dias": 10,
+  "noches": 9,
+  "ciudades": [
+   "Moscú",
+   "San Petersburgo",
+   "Tallin"
+  ],
+  "salidas": "De mayo a septiembre",
+  "modalidad": "Clásico",
+  "idioma_guia": "Español",
+  "resumen": "Combinado Rusia más Tallin en 10 días, con un cierre báltico que pocos itinerarios incluyen.",
+  "incluye": [
+   "Vuelos internacionales con conexión y traslados",
+   "Hospedaje en hoteles 4★ con desayuno ruso",
+   "Guía hispanohablante en cada ciudad",
+   "Tour panorámico, Kremlin y Plaza Roja en Moscú",
+   "Hermitage y palacios de los zares en San Petersburgo",
+   "Asistencia 24/7 desde CDMX"
+  ],
+  "no_incluye": [
+   "Visa rusa (cotizada por separado, podemos tramitarla)",
+   "Comidas no incluidas en el programa",
+   "Propinas a guías y choferes",
+   "Excursiones opcionales"
+  ],
+  "destacados": [
+   "Moscú (Kremlin y Plaza Roja)",
+   "San Petersburgo (Hermitage)",
+   "Tallin"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada y city tour",
+   "Día 2: Moscú — Visitas y tiempo libre",
+   "Día 3: Moscú — Última actividad y traslado",
+   "Día 4: San Petersburgo — Llegada y city tour",
+   "Día 5: San Petersburgo — Visitas y tiempo libre",
+   "Día 6: San Petersburgo — Última actividad y traslado",
+   "Día 7: Tallin — Llegada y city tour",
+   "Día 8: Tallin — Visitas y tiempo libre",
+   "Día 9: Tallin — Visitas y tiempo libre",
+   "Día 10: Tallin — Visitas y tiempo libre"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
+  "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
+ },
+ {
+  "slug": "kalinka",
+  "url": "https://russia.com.mx/viajes-rusia/kalinka",
+  "nombre": "Kalinka",
+  "region": "Rusia",
+  "dias": 10,
+  "noches": 9,
+  "ciudades": [
+   "Moscú",
+   "San Petersburgo",
+   "Helsinki"
+  ],
+  "salidas": "De mayo a septiembre",
+  "modalidad": "Clásico",
+  "idioma_guia": "Español",
+  "resumen": "Rusia con extensión a Helsinki en 10 días para cerrar el círculo del Báltico.",
+  "incluye": [
+   "Vuelos internacionales con conexión y traslados",
+   "Hospedaje en hoteles 4★ con desayuno ruso",
+   "Guía hispanohablante en cada ciudad",
+   "Tour panorámico, Kremlin y Plaza Roja en Moscú",
+   "Hermitage y palacios de los zares en San Petersburgo",
+   "Asistencia 24/7 desde CDMX"
+  ],
+  "no_incluye": [
+   "Visa rusa (cotizada por separado, podemos tramitarla)",
+   "Comidas no incluidas en el programa",
+   "Propinas a guías y choferes",
+   "Excursiones opcionales"
+  ],
+  "destacados": [
+   "Moscú (Kremlin y Plaza Roja)",
+   "San Petersburgo (Hermitage)",
+   "Helsinki"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada y city tour",
+   "Día 2: Moscú — Visitas y tiempo libre",
+   "Día 3: Moscú — Última actividad y traslado",
+   "Día 4: San Petersburgo — Llegada y city tour",
+   "Día 5: San Petersburgo — Visitas y tiempo libre",
+   "Día 6: San Petersburgo — Última actividad y traslado",
+   "Día 7: Helsinki — Llegada y city tour",
+   "Día 8: Helsinki — Visitas y tiempo libre",
+   "Día 9: Helsinki — Visitas y tiempo libre",
+   "Día 10: Helsinki — Visitas y tiempo libre"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
+  "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
+ },
+ {
+  "slug": "stop-over-moscu",
+  "url": "https://russia.com.mx/viajes-rusia/stop-over-moscu",
+  "nombre": "Stop Over Moscú",
+  "region": "Rusia",
+  "dias": 4,
+  "noches": 3,
+  "ciudades": [
+   "Moscú"
+  ],
+  "salidas": "De abril a octubre",
+  "modalidad": "Stop Over",
+  "idioma_guia": "Español",
+  "resumen": "Tres noches en Moscú con tour panorámico, Kremlin y Plaza Roja; pensado como extensión de otro viaje.",
+  "incluye": [
+   "Vuelos internacionales con conexión y traslados",
+   "Hospedaje en hoteles 4★ con desayuno ruso",
+   "Guía hispanohablante en cada ciudad",
+   "Tour panorámico, Kremlin y Plaza Roja en Moscú",
+   "Hermitage y palacios de los zares en San Petersburgo",
+   "Asistencia 24/7 desde CDMX"
+  ],
+  "no_incluye": [
+   "Visa rusa (cotizada por separado, podemos tramitarla)",
+   "Comidas no incluidas en el programa",
+   "Propinas a guías y choferes",
+   "Excursiones opcionales"
+  ],
+  "destacados": [
+   "Tour panorámico",
+   "Kremlin",
+   "Plaza Roja"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada y city tour",
+   "Día 2: Moscú — Visitas y tiempo libre",
+   "Día 3: Moscú — Visitas y tiempo libre",
+   "Día 4: Moscú — Visitas y tiempo libre"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
+  "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
+ },
+ {
+  "slug": "stop-over-san-petersburgo",
+  "url": "https://russia.com.mx/viajes-rusia/stop-over-san-petersburgo",
+  "nombre": "Stop Over San Petersburgo",
+  "region": "Rusia",
+  "dias": 4,
+  "noches": 3,
+  "ciudades": [
+   "San Petersburgo"
+  ],
+  "salidas": "De abril a octubre",
+  "modalidad": "Stop Over",
+  "idioma_guia": "Español",
+  "resumen": "Tres noches en San Petersburgo, la Venecia del Norte, con Hermitage, Peterhof y canales; pensado como extensión.",
+  "incluye": [
+   "Vuelos internacionales con conexión y traslados",
+   "Hospedaje en hoteles 4★ con desayuno ruso",
+   "Guía hispanohablante en cada ciudad",
+   "Tour panorámico, Kremlin y Plaza Roja en Moscú",
+   "Hermitage y palacios de los zares en San Petersburgo",
+   "Asistencia 24/7 desde CDMX"
+  ],
+  "no_incluye": [
+   "Visa rusa (cotizada por separado, podemos tramitarla)",
+   "Comidas no incluidas en el programa",
+   "Propinas a guías y choferes",
+   "Excursiones opcionales"
+  ],
+  "destacados": [
+   "Hermitage",
+   "Peterhof",
+   "Canales"
+  ],
+  "itinerario": [
+   "Día 1: San Petersburgo — Llegada y city tour",
+   "Día 2: San Petersburgo — Visitas y tiempo libre",
+   "Día 3: San Petersburgo — Visitas y tiempo libre",
+   "Día 4: San Petersburgo — Visitas y tiempo libre"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
+  "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
+ },
+ {
+  "slug": "transiberiano",
+  "url": "https://russia.com.mx/viajes-rusia/transiberiano",
+  "nombre": "Transiberiano",
+  "region": "Rusia",
+  "dias": 16,
+  "noches": 15,
+  "ciudades": [
+   "Moscú",
+   "Kazán",
+   "Ekaterimburgo",
+   "Irkutsk",
+   "Lago Baikal",
+   "Vladivostok"
+  ],
+  "salidas": "Salidas selectas de junio a septiembre",
+  "modalidad": "Tren",
+  "idioma_guia": "Español",
+  "resumen": "El tren más legendario del mundo: 9.288 km de Moscú al Pacífico cruzando los Urales, Siberia y el Baikal, en 16 días.",
+  "incluye": [
+   "Vuelos internacionales con conexión y traslados",
+   "Hospedaje en hoteles 4★ con desayuno ruso",
+   "Guía hispanohablante en cada ciudad",
+   "Tour panorámico, Kremlin y Plaza Roja en Moscú",
+   "Hermitage y palacios de los zares en San Petersburgo",
+   "Asistencia 24/7 desde CDMX"
+  ],
+  "no_incluye": [
+   "Visa rusa (cotizada por separado, podemos tramitarla)",
+   "Comidas no incluidas en el programa",
+   "Propinas a guías y choferes",
+   "Excursiones opcionales"
+  ],
+  "destacados": [
+   "9.288 km en el Transiberiano",
+   "Cruce de los Urales y Siberia",
+   "Kazán",
+   "Ekaterimburgo",
+   "Lago Baikal",
+   "Vladivostok en el Pacífico"
+  ],
+  "itinerario": [
+   "Día 1: Moscú — Llegada y city tour",
+   "Día 2: Moscú — Última actividad y traslado",
+   "Día 3: Kazán — Llegada y city tour",
+   "Día 4: Kazán — Última actividad y traslado",
+   "Día 5: Ekaterimburgo — Llegada y city tour",
+   "Día 6: Ekaterimburgo — Última actividad y traslado",
+   "Día 7: Irkutsk — Llegada y city tour",
+   "Día 8: Irkutsk — Última actividad y traslado",
+   "Día 9: Lago Baikal — Llegada y city tour",
+   "Día 10: Lago Baikal — Última actividad y traslado",
+   "Día 11: Vladivostok — Llegada y city tour",
+   "Día 12: Vladivostok — Visitas y tiempo libre",
+   "Día 13: Vladivostok — Visitas y tiempo libre",
+   "Día 14: Vladivostok — Visitas y tiempo libre",
+   "Día 15: Vladivostok — Visitas y tiempo libre",
+   "Día 16: Vladivostok — Visitas y tiempo libre"
+  ],
+  "visa": "Requerida (la tramitamos)",
+  "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
+  "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
+ },
+ {
+  "slug": "suenos-del-invierno-laponia",
+  "url": "https://russia.com.mx/paquetes/suenos-del-invierno-laponia",
+  "nombre": "Sueños del Invierno — Laponia",
+  "region": "Escandinavia",
+  "dias": 7,
+  "noches": 6,
+  "ciudades": [
+   "Rovaniemi",
+   "Kemi",
+   "Saariselkä"
+  ],
+  "salidas": "Llegadas fijas: 18 y 24 de enero · 8 y 15 de febrero · 7 de marzo",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español (el detalle indica guía acompañante bilingüe español-portugués)",
+  "resumen": "Invierno ártico en la Laponia finlandesa en categoría primera, con huskies, rompehielos, castillo de hielo, cabaña Aurora y safari de auroras boreales. Servicios en regular y llegadas fijas.",
+  "incluye": [
+   "Guía acompañante bilingüe español-portugués",
+   "5 noches en hoteles (Scandic Rovaniemi o similar) y 1 noche en Aurora Cabin (Northern Lights Village, Saariselkä)",
+   "1 cena y 5 almuerzos",
+   "Alquiler de ropa térmica de invierno (días 2 a 7)",
+   "Huskies (5 km en trineo), aldea de Papá Noel, rompehielos Sampo 3h30, Castillo de Hielo de Kemi",
+   "Sauna, piscina de hielo y jacuzzi (día 4)",
+   "Safari en motonieve 2 h, granja Sami con renos, safari nocturno de auroras (día 5)",
+   "Zoológico Ranua 4 h",
+   "Maletero en hoteles (1 maleta de 20 kg)"
+  ],
+  "no_incluye": [
+   "Tickets de avión y/o ferrocarril",
+   "Traslados de llegada y salida (contratables con costo adicional)",
+   "Otros servicios no mencionados como incluidos"
+  ],
+  "destacados": [
+   "Trineo de huskies",
+   "Rompehielos Sampo",
+   "Castillo de Hielo de Kemi",
+   "Aldea y oficina de Papá Noel",
+   "Cabañas Aurora con safari de auroras boreales",
+   "Granja Sami con renos"
+  ],
+  "itinerario": [
+   "Día 1: Rovaniemi — Llegada",
+   "Día 2: Rovaniemi — Huskies y aldea de Papá Noel",
+   "Día 3: Rovaniemi → Kemi → Rovaniemi — Castillo de hielo y rompehielos Sampo",
+   "Día 4: Rovaniemi → Saariselkä — Hacia el norte y cabañas Aurora",
+   "Día 5: Saariselkä → Rovaniemi — Motonieve, granja Sami y safari aurora boreal",
+   "Día 6: Rovaniemi — Zoológico Ranua",
+   "Día 7: Rovaniemi — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null
+ },
+ {
+  "slug": "paises-balticos",
+  "url": "https://russia.com.mx/paquetes/paises-balticos",
+  "nombre": "Países Bálticos",
+  "region": "Bálticos",
+  "dias": 8,
+  "noches": 7,
+  "ciudades": [
+   "Vilnius",
+   "Riga",
+   "Tallinn"
+  ],
+  "salidas": "Llegadas fijas a Vilnius · del 24 de marzo al 1 de diciembre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español",
+  "resumen": "Las tres capitales bálticas (Vilnius, Riga, Tallinn) en 8 días con paradas en Kaunas, Sigulda y Pärnu; servicios privados, hoteles 4★ y guía oficial en español del día 2 al 6.",
+  "incluye": [
+   "7 noches en hoteles 4★ con desayuno buffet",
+   "2 almuerzos de 3 platos (días 3 y 5)",
+   "Minibús/autocar climatizado",
+   "Guía oficial local solo en español del día 2 al 6",
+   "Audio-radio para grupos de más de 15 personas"
+  ],
+  "no_incluye": [
+   "Excursión opcional a Helsinki",
+   "Vuelos internacionales",
+   "Propinas",
+   "Maleteros",
+   "Todo lo no mencionado como incluido"
+  ],
+  "destacados": [
+   "Colina de las Cruces",
+   "Riga, el París del Norte",
+   "Valle del Gauja, Sigulda y cueva Gutmanis",
+   "Pärnu",
+   "Tallinn medieval",
+   "Opcionales: Trakai, Jurmala, Rocca al Mare, Helsinki en ferry"
+  ],
+  "itinerario": [
+   "Día 1: Vilnius — Llegada",
+   "Día 2: Vilnius — City tour y opcional Trakai",
+   "Día 3: Vilnius → Kaunas → Colina de las Cruces → Riga — Camino a Letonia",
+   "Día 4: Riga — Riga, el París del Norte",
+   "Día 5: Riga → Sigulda → Pärnu → Tallinn — Valle del Gauja y Pärnu",
+   "Día 6: Tallinn — Tallinn medieval",
+   "Día 7: Tallinn — Día libre · opcional Helsinki",
+   "Día 8: Tallinn — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null
+ },
+ {
+  "slug": "rumania-dracula",
+  "url": "https://russia.com.mx/paquetes/rumania-dracula",
+  "nombre": "Rumania — Huellas de Drácula",
+  "region": "Europa del Este",
+  "dias": 7,
+  "noches": 6,
+  "ciudades": [
+   "Bucarest",
+   "Sighisoara",
+   "Bucovina",
+   "Piatra Neamt",
+   "Brasov"
+  ],
+  "salidas": "Llegadas diarias a Bucarest · del 20 de abril al 26 de octubre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español",
+  "resumen": "Ruta de 7 días por Transilvania, Bucovina y los Cárpatos siguiendo la leyenda de Drácula, con hoteles 4★/5★ y guía en español durante todo el recorrido.",
+  "incluye": [
+   "Hoteles 4★/5★ con desayuno buffet",
+   "Media pensión: 5 almuerzos y 2 cenas con agua mineral",
+   "Transporte con aire acondicionado",
+   "Traslados regulares sin guía",
+   "Guía de habla hispana durante todo el recorrido",
+   "Visitas del itinerario"
+  ],
+  "no_incluye": [
+   "Tickets de avión",
+   "Otras bebidas en las comidas",
+   "Propinas",
+   "Maleteros y transporte de equipajes",
+   "Otros servicios no mencionados"
+  ],
+  "destacados": [
+   "Castillo de Bran (Drácula)",
+   "Sighișoara, cuna de Drácula",
+   "Monasterios pintados de Bucovina (Voroneț)",
+   "Gargantas de Bicaz",
+   "Castillo Peleș en Sinaia",
+   "Iglesia Negra de Brașov"
+  ],
+  "itinerario": [
+   "Día 1: Bucarest — Llegada",
+   "Día 2: Bucarest → Sibiu → Sighișoara — Cozia, Sibiu y la cuna de Drácula",
+   "Día 3: Sighișoara → Târgu Mureș → Gura Humorului — Bucovina y Voroneț",
+   "Día 4: Gura Humorului → Piatra Neamț — Monasterios pintados",
+   "Día 5: Piatra Neamț → Gargantas de Bicaz → Bran → Brașov — Castillo de Drácula",
+   "Día 6: Brașov → Sinaia → Bucarest — Castillo Peleș y la capital",
+   "Día 7: Bucarest — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null
+ },
+ {
+  "slug": "viaje-de-los-suenos",
+  "url": "https://russia.com.mx/paquetes/viaje-de-los-suenos",
+  "nombre": "Viaje de los Sueños",
+  "region": "Escandinavia",
+  "dias": 14,
+  "noches": 13,
+  "ciudades": [
+   "Copenhague",
+   "Oslo",
+   "Bergen",
+   "Estocolmo",
+   "Helsinki",
+   "Tallin"
+  ],
+  "salidas": "Llegadas diarias a Copenhague · del 7 de mayo al 10 de septiembre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español",
+  "resumen": "Gran circuito nórdico de 14 días por Dinamarca, Noruega, Suecia, Finlandia y Estonia, con dos cruceros nocturnos (DFDS y Tallink Silja), fiordos y capitales, y guía acompañante en español.",
+  "incluye": [
+   "11 noches en hoteles 4★ con desayuno buffet",
+   "2 noches a bordo (DFDS Copenhague–Oslo y Tallink Silja Estocolmo–Helsinki) en camarote con vista al mar",
+   "4 cenas",
+   "Guía acompañante en español todo el itinerario",
+   "Visitas panorámicas con guías locales hispanohablantes",
+   "Autocar privado con Wi-Fi del día 4 al 10",
+   "1 maleta de 20 kg + equipaje de mano de 5 kg"
+  ],
+  "no_incluye": [
+   "Vuelos internacionales y boletos de tren",
+   "Traslados de llegada y salida individuales",
+   "Otros servicios no mencionados"
+  ],
+  "destacados": [
+   "Crucero DFDS Copenhague–Oslo",
+   "Sognefjord y Bryggen (Bergen)",
+   "Iglesia de madera de Borgund",
+   "Gamla Stan y Palacio Real en Estocolmo",
+   "Crucero Tallink Silja a Helsinki",
+   "Excursión a Tallin"
+  ],
+  "itinerario": [
+   "Día 1: Copenhague — Llegada",
+   "Día 2: Copenhague — Visita panorámica",
+   "Día 3: Copenhague → Oslo — Crucero DFDS Scandinavian Seaways",
+   "Día 4: Oslo → Geilo — Frogner, Akershus y ruta a Fagernes",
+   "Día 5: Geilo → Bergen — Sognefjord y Bryggen",
+   "Día 6: Bergen → Balestrand — Ferry Oppedal–Lavik",
+   "Día 7: Balestrand → Oslo — Iglesia de madera de Borgund",
+   "Día 8: Oslo — Día libre",
+   "Día 9: Oslo → Estocolmo — Karlstad y Castillo de Gripsholm",
+   "Día 10: Estocolmo — Gamla Stan y Palacio Real",
+   "Día 11: Estocolmo → Helsinki — Crucero Tallink Silja Line",
+   "Día 12: Helsinki — Visita panorámica",
+   "Día 13: Helsinki → Tallin → Helsinki — Excursión a Tallin",
+   "Día 14: Helsinki — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null
+ },
+ {
+  "slug": "suenos-de-escandinavia",
+  "url": "https://russia.com.mx/paquetes/suenos-de-escandinavia",
+  "nombre": "Sueños de Escandinavia",
+  "region": "Escandinavia",
+  "dias": 11,
+  "noches": 10,
+  "ciudades": [
+   "Copenhague",
+   "Oslo",
+   "Bergen",
+   "Balestrand",
+   "Estocolmo"
+  ],
+  "salidas": "Llegadas diarias a Copenhague · del 7 de mayo al 10 de septiembre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español",
+  "resumen": "Circuito de 11 días por Dinamarca, Noruega y Suecia con crucero DFDS, fiordos noruegos y las capitales nórdicas, con guía acompañante en español.",
+  "incluye": [
+   "9 noches en hoteles 4★ con desayuno buffet",
+   "1 noche a bordo del DFDS Copenhague–Oslo en camarote con vista al mar",
+   "3 cenas",
+   "Guía acompañante en español",
+   "Autocar privado con Wi-Fi del día 4 al 10",
+   "1 maleta de 20 kg + equipaje de mano de 5 kg"
+  ],
+  "no_incluye": [
+   "Vuelos internacionales y boletos de tren",
+   "Traslados de llegada y salida individuales",
+   "Otros servicios no mencionados"
+  ],
+  "destacados": [
+   "Crucero DFDS a Oslo",
+   "Sognefjord y Bryggen",
+   "Ferry Oppedal–Lavik",
+   "Iglesia de madera de Borgund",
+   "Castillo de Gripsholm",
+   "Gamla Stan y Palacio Real"
+  ],
+  "itinerario": [
+   "Día 1: Copenhague — Llegada",
+   "Día 2: Copenhague — Visita panorámica",
+   "Día 3: Copenhague → Oslo — Crucero DFDS Scandinavian Seaways",
+   "Día 4: Oslo → Geilo — Frogner, Akershus y ruta a Geilo",
+   "Día 5: Geilo → Bergen — Sognefjord y Bryggen",
+   "Día 6: Bergen → Balestrand — Ferry Oppedal–Lavik",
+   "Día 7: Balestrand → Oslo — Iglesia de madera de Borgund",
+   "Día 8: Oslo — Día libre",
+   "Día 9: Oslo → Estocolmo — Karlstad y Castillo de Gripsholm",
+   "Día 10: Estocolmo — Gamla Stan y Palacio Real",
+   "Día 11: Estocolmo — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null
+ },
+ {
+  "slug": "centro-de-eurasia-kazajistan",
+  "url": "https://russia.com.mx/paquetes/centro-de-eurasia-kazajistan",
+  "nombre": "El Viaje al Centro de Eurasia — Kazajistán",
+  "region": "Asia Central",
+  "dias": 8,
+  "noches": 7,
+  "ciudades": [
+   "Almaty",
+   "Turquestán",
+   "Shymkent",
+   "Astana"
+  ],
+  "salidas": "Llegadas diarias a Almaty · ventas se cierran 25-30 días antes",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español en Almaty y Astana; inglés en Turquestán y Shymkent",
+  "resumen": "Kazajistán en privado en 8 días: Almaty, Cañón de Charyn, Turquestán (UNESCO), Shymkent y Astana, con una noche en tren y hoteles 4★.",
+  "incluye": [
+   "Hoteles 4★ con desayuno (3 noches Almaty, 1 Turquestán, 1 Shymkent, 2 Astana)",
+   "1 noche en tren Almaty–Turquestán (compartimento de 4 camas)",
+   "8 desayunos y 2 almuerzos",
+   "Transporte privado con A/A",
+   "Entradas a museos y teleféricos",
+   "Guías en español (Almaty, Astana) e inglés (Turquestán, Shymkent)",
+   "Agua 0,5 L diaria, regalos y maleteros"
+  ],
+  "no_incluye": [
+   "Vuelos internacionales",
+   "Suplemento por alojamiento individual",
+   "Vuelo doméstico Shymkent–Astana (desde 154 USD p.p.)",
+   "Gastos personales"
+  ],
+  "destacados": [
+   "Almaty: Medeo–Shymbulak y Kok-Tobe",
+   "Cañón de Charyn y Valle de los Castillos",
+   "Tren nocturno Almaty–Turquestán",
+   "Mausoleo Yasawi (UNESCO)",
+   "Torre Baiterek en Astana",
+   "Gran Mezquita y Pirámide de la Paz"
+  ],
+  "itinerario": [
+   "Día 1: Almaty — City tour, Medeo–Shymbulak y Kok-Tobe",
+   "Día 2: Almaty → Cañón de Charyn → Almaty — Valle de los Castillos",
+   "Día 3: Almaty → Turquestán — Pueblo étnico Los Hunos · tren nocturno",
+   "Día 4: Turquestán — Mausoleo Yasawi y ruinas de Sauran",
+   "Día 5: Turquestán → Otrar → Shymkent — Mausoleo de Arystan-Bab y Otrar",
+   "Día 6: Shymkent → Astana — Vuelo doméstico y Baiterek",
+   "Día 7: Astana — Pirámide de la Paz, Nur Alem y Gran Mezquita",
+   "Día 8: Astana — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null
+ },
+ {
+  "slug": "polonia",
+  "url": "https://russia.com.mx/paquetes/polonia",
+  "nombre": "Polonia — Viaje Completo",
+  "region": "Europa del Este",
+  "dias": 9,
+  "noches": 8,
+  "ciudades": [
+   "Varsovia",
+   "Cracovia",
+   "Wroclaw",
+   "Torun",
+   "Gdansk"
+  ],
+  "salidas": "Llegadas diarias a Varsovia · del 31 de mayo al 11 de octubre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español",
+  "resumen": "Gran tour de Polonia de 9 días por cinco ciudades, con Auschwitz-Birkenau, minas de Wieliczka y castillo de Malbork, hoteles 4★ y media pensión.",
+  "incluye": [
+   "Hoteles 4★",
+   "Media pensión: 8 desayunos, 7 almuerzos y 1 cena",
+   "Guía acompañante hispanohablante (chofer-guía si el grupo es menor a 6 pax)",
+   "Autobús de hasta 49 plazas",
+   "Guías locales y entradas indicadas",
+   "Degustación de 4 cervezas en Piwnica Świdnicka",
+   "Traslado de llegada en regular"
+  ],
+  "no_incluye": [
+   "Bebidas alcohólicas en comidas",
+   "Propinas y gastos personales",
+   "Vuelos",
+   "Seguro médico y de viaje",
+   "Ascensor de las minas de Wieliczka",
+   "Maleteros",
+   "Traslado de salida"
+  ],
+  "destacados": [
+   "Minas de sal de Wieliczka (UNESCO)",
+   "Auschwitz-Birkenau",
+   "Castillo de Wawel y casco antiguo de Cracovia",
+   "Degustación en Piwnica Świdnicka (Wrocław)",
+   "Casco antiguo de Toruń (UNESCO)",
+   "Castillo teutónico de Malbork (UNESCO)"
+  ],
+  "itinerario": [
+   "Día 1: Varsovia — Llegada",
+   "Día 2: Varsovia → Cracovia — Visita panorámica y traslado",
+   "Día 3: Cracovia — Wieliczka y casco antiguo",
+   "Día 4: Cracovia → Wrocław — Auschwitz-Birkenau",
+   "Día 5: Wrocław → Toruń — Wrocław y degustación en Piwnica Świdnicka",
+   "Día 6: Toruń → Westerplatte → Gdańsk — Cuna de Copérnico y memorial de Westerplatte",
+   "Día 7: Gdańsk — Sopot, Oliwa y Gdańsk",
+   "Día 8: Gdańsk → Malbork → Olsztynek → Varsovia — Castillo teutónico de Malbork",
+   "Día 9: Varsovia — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null
+ },
+ {
+  "slug": "magia-del-caucaso",
+  "url": "https://russia.com.mx/paquetes/magia-del-caucaso",
+  "nombre": "La Magia del Cáucaso",
+  "region": "Cáucaso",
+  "dias": 14,
+  "noches": 13,
+  "ciudades": [
+   "Bakú",
+   "Sheki",
+   "Tbilisi",
+   "Gudauri",
+   "Akhaltsikhe",
+   "Ereván"
+  ],
+  "salidas": "Llegadas diarias a Bakú · del 8 de mayo al 30 de octubre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español (guía de habla hispana o inglesa según el programa)",
+  "resumen": "Azerbaiyán, Georgia y Armenia en privado: gran circuito de 14 días y una variante de 10 días Bakú–Ereván con hoteles 4★ o 5★.",
+  "incluye": [
+   "14 días: hoteles 3★/4★ (2 noches Bakú, 1 Sheki, 5 Tbilisi, 1 Gudauri, 1 Akhaltsikhe, 3 Ereván)",
+   "14 desayunos, cena de bienvenida con danzas georgianas, cena en Gudauri y degustación de vinos en Sighnaghi",
+   "Traslados aeropuerto-hotel-aeropuerto sin guía",
+   "Transporte privado y entradas del programa",
+   "Guía de habla hispana o inglesa",
+   "Agua mineral diaria",
+   "10 días: desayunos, concierto de duduk y masterclass de lavash"
+  ],
+  "no_incluye": [
+   "Vuelos internacionales",
+   "Bebidas alcohólicas",
+   "Gastos de visado si fuera necesario",
+   "Maleteros",
+   "Servicios opcionales (cata de vinos, e-visa, museo etnográfico, cena folk, concierto a capella) bajo suplemento"
+  ],
+  "destacados": [
+   "Bakú: casco viejo, Yanar Dag y Gobustán",
+   "Palacio de los Khanes en Sheki",
+   "Tbilisi y vino en Kakheti (Sighnaghi)",
+   "Vía Militar Georgiana y Gergeti",
+   "Ciudad rupestre de Vardzia",
+   "Echmiadzín, Garni y Geghard en Armenia"
+  ],
+  "itinerario": [
+   "Día 1: Bakú — Llegada",
+   "Día 2: Bakú · Península de Absheron — Casco viejo y Yanar Dag",
+   "Día 3: Bakú → Gobustán → Shamakhi → Sheki — Petroglifos y mausoleo de Diri Baba",
+   "Día 4: Sheki → Lagodekhi → Tbilisi — Palacio de los Khanes y entrada a Georgia",
+   "Día 5: Tbilisi — Casco antiguo y cena de bienvenida",
+   "Día 6: Tbilisi · Kakheti · Tbilisi — Bodbe, Sighnaghi y degustación de vinos",
+   "Día 7: Tbilisi → Mtskheta → Stepantsminda → Gudauri — Vía Militar Georgiana y Gergeti",
+   "Día 8: Gudauri → Ananuri → Uplistsikhe → Gori → Akhaltsikhe — Fortalezas, ciudad rupestre y Stalin",
+   "Día 9: Akhaltsikhe → Vardzia → Ereván — Castillo de Rabati y ciudad rupestre de Vardzia",
+   "Día 10: Ereván · Echmiadzín · Ereván — Catedral de Echmiadzín y Matenadarán",
+   "Día 11: Ereván · Garni · Geghard · Khor Virap · Ereván — Templo helenístico y monasterio rupestre",
+   "Día 12: Ereván → Seván → Sadakhlo → Tbilisi — Lago Seván y monasterio de Haghpat",
+   "Día 13: Tbilisi — Día libre",
+   "Día 14: Tbilisi — Salida"
+  ],
+  "visa": "No incluye gastos de visado si fuera necesario; e-visa azerbaiyana opcional 55 USD por persona (también puede tramitarse en línea)",
+  "mejor_temporada": null,
+  "variante_10_dias": {
+   "descripcion": "Programa privado de 10 días / 9 noches Bakú–Ereván: 2 noches Bakú, 1 Sheki, 3 Tbilisi, 3 Ereván; hoteles 4★ (estándar) o 4-5★ (superior)",
+   "itinerario": [
+    "Día 1: Bakú — Llegada",
+    "Día 2: Bakú · Ateshgah · Yanar Dag — Casco antiguo y montaña ardiente",
+    "Día 3: Bakú → Gobustán → Shamakhi → Sheki — Pinturas rupestres de Gobustán (≈350 km)",
+    "Día 4: Sheki → Kish → Lagodekhi → Sighnaghi → Tbilisi — Palacio del Khan y entrada a Georgia",
+    "Día 5: Tbilisi — Capital de Georgia",
+    "Día 6: Tbilisi → Mtskheta → Uplistsikhe → Gori → Tbilisi — Antigua capital y ciudad tallada en la roca",
+    "Día 7: Tbilisi → Sadakhlo → Haghpat → Seván → Ereván — Entrada a Armenia",
+    "Día 8: Ereván → Echmiadzín → Zvartnots → Ereván — La ciudad santa y el templo de los ángeles",
+    "Día 9: Ereván → Khor Virap → Geghard → Garní → Ereván — Monasterios y templo de Mitra",
+    "Día 10: Ereván — Salida"
+   ],
+   "precios_usd_por_persona": {
+    "1 pax": {
+     "4*": 7490,
+     "5*": 8050,
+     "nota": "en hab. SGL"
     },
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve"
-  },
-  {
-    "slug": "anillo-de-oro",
-    "url": "https://russia.com.mx/viajes-rusia/anillo-de-oro",
-    "nombre": "Anillo de Oro",
-    "region": "Rusia",
-    "dias": 8,
-    "noches": 7,
-    "ciudades": [
-      "Moscú",
-      "Sergiev Posad",
-      "Suzdal",
-      "Vladimir",
-      "San Petersburgo"
-    ],
-    "salidas": "Llegadas a Moscú · 2027",
-    "modalidad": "Privado",
-    "idioma_guia": "Español",
-    "resumen": "Moscú y San Petersburgo más las ciudades históricas de Sergiev Posad, Suzdal y Vladimir en 8 días, con servicios privados y guía en español. Incluye clase de pintura de matrioskas y tren rápido a San Petersburgo.",
-    "incluye": [
-      "Hoteles 4★ (Safmar Lesnaya, Pushkarskaya Sloboda, Cosmos Nevskiy, o similares)",
-      "Desayuno diario",
-      "2 almuerzos (Sergiev Posad y Vladimir) y 1 cena en Suzdal",
-      "Traslados individuales con guía",
-      "Tren diurno de alta velocidad a San Petersburgo en clase turista",
-      "Visitas del itinerario",
-      "Guía de habla hispana"
-    ],
-    "no_incluye": [
-      "Boletos de avión internacionales",
-      "Otros servicios no mencionados como incluidos"
-    ],
-    "destacados": [
-      "Kremlin, catedrales y Armería",
-      "Monasterio de la Trinidad de San Sergio con clase magistral de pintura de matrioskas",
-      "Suzdal y Vladimir",
-      "Tren rápido a San Petersburgo",
-      "Hermitage y Fortaleza",
-      "Petrodvorets"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada",
-      "Día 2: Moscú — City tour panorámico",
-      "Día 3: Moscú — Kremlin, catedrales y Armería",
-      "Día 4: Moscú → Sergiev Posad → Suzdal — Monasterio de la Trinidad y matrioskas",
-      "Día 5: Suzdal → Vladimir → Moscú → San Petersburgo — Suzdal, Vladimir y tren rápido",
-      "Día 6: San Petersburgo — Hermitage, city tour y Fortaleza",
-      "Día 7: San Petersburgo — Petrodvorets",
-      "Día 8: San Petersburgo — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "USD",
-      "desde_por_persona": 3650,
-      "base": "6+ pax, hab. doble (2027)",
-      "notas": [
-        "Tabla por persona en USD: 1 pax 8 460; 2 pax 4 630; 3 pax 4 630; 4 pax 4 260; 5 pax 3 890; 6+ pax 3 650",
-        "Suplemento individual 460 USD (desde 2 pax)",
-        "No incluye boletos de avión internacionales",
-        "Durante el Foro Económico de San Petersburgo (16 al 19 de junio de 2027) no se garantizan las tarifas",
-        "Hoteles pueden cambiar por otros de categoría similar; el orden de excursiones puede cambiar según museos",
-        "Por inestabilidad del rublo los precios están sujetos a cambio y se reconfirman al confirmar el tour"
-      ]
+    "2 pax": {
+     "4*": 4700,
+     "5*": 5000
     },
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve"
-  },
-  {
-    "slug": "sinfonia-rusa",
-    "url": "https://russia.com.mx/viajes-rusia/sinfonia-rusa",
-    "nombre": "Sinfonía Rusa (privado)",
-    "region": "Rusia",
-    "dias": 8,
-    "noches": 7,
-    "ciudades": [
-      "Moscú",
-      "San Petersburgo"
-    ],
-    "salidas": "Salidas privadas todo el año",
-    "modalidad": "Privado",
-    "idioma_guia": "Español",
-    "resumen": "Versión privada del clásico Moscú–San Petersburgo, con chofer y guía exclusivos y ritmo a la medida del viajero.",
-    "incluye": [
-      "Vuelos internacionales con conexión y traslados",
-      "Hospedaje en hoteles 4★ con desayuno ruso",
-      "Guía hispanohablante en cada ciudad",
-      "Tour panorámico, Kremlin y Plaza Roja en Moscú",
-      "Hermitage y palacios de los zares en San Petersburgo",
-      "Asistencia 24/7 desde CDMX"
-    ],
-    "no_incluye": [
-      "Visa rusa (cotizada por separado, podemos tramitarla)",
-      "Comidas no incluidas en el programa",
-      "Propinas a guías y choferes",
-      "Excursiones opcionales"
-    ],
-    "destacados": [
-      "Chofer y guía exclusivos",
-      "Hoteles boutique (según la descripción)",
-      "City tour de Moscú",
-      "Kremlin y Plaza Roja",
-      "Hermitage y palacios de los zares"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada y city tour",
-      "Día 2: Moscú — Visitas y tiempo libre",
-      "Día 3: Moscú — Visitas y tiempo libre",
-      "Día 4: Moscú — Última actividad y traslado",
-      "Día 5: San Petersburgo — Llegada y city tour",
-      "Día 6: San Petersburgo — Visitas y tiempo libre",
-      "Día 7: San Petersburgo — Visitas y tiempo libre",
-      "Día 8: San Petersburgo — Visitas y tiempo libre"
-    ],
-    "precio_publicado": null,
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
-    "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
-  },
-  {
-    "slug": "troyka-rusa",
-    "url": "https://russia.com.mx/viajes-rusia/troyka-rusa",
-    "nombre": "Troyka Rusa — Anillo de Oro",
-    "region": "Rusia",
-    "dias": 11,
-    "noches": 10,
-    "ciudades": [
-      "Moscú",
-      "Sergiev Posad",
-      "Vladimir",
-      "Suzdal",
-      "San Petersburgo"
-    ],
-    "salidas": "De abril a octubre",
-    "modalidad": "Clásico",
-    "idioma_guia": "Español",
-    "resumen": "Las dos capitales rusas más las ciudades históricas del Anillo de Oro en 11 días: la Rusia ortodoxa y zarista en una sola ruta.",
-    "incluye": [
-      "Vuelos internacionales con conexión y traslados",
-      "Hospedaje en hoteles 4★ con desayuno ruso",
-      "Guía hispanohablante en cada ciudad",
-      "Tour panorámico, Kremlin y Plaza Roja en Moscú",
-      "Hermitage y palacios de los zares en San Petersburgo",
-      "Asistencia 24/7 desde CDMX"
-    ],
-    "no_incluye": [
-      "Visa rusa (cotizada por separado, podemos tramitarla)",
-      "Comidas no incluidas en el programa",
-      "Propinas a guías y choferes",
-      "Excursiones opcionales"
-    ],
-    "destacados": [
-      "Moscú",
-      "Sergiev Posad",
-      "Vladimir",
-      "Suzdal",
-      "San Petersburgo"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada y city tour",
-      "Día 2: Moscú — Última actividad y traslado",
-      "Día 3: Sergiev Posad — Llegada y city tour",
-      "Día 4: Sergiev Posad — Última actividad y traslado",
-      "Día 5: Vladimir — Llegada y city tour",
-      "Día 6: Vladimir — Última actividad y traslado",
-      "Día 7: Suzdal — Llegada y city tour",
-      "Día 8: Suzdal — Última actividad y traslado",
-      "Día 9: San Petersburgo — Llegada y city tour",
-      "Día 10: San Petersburgo — Visitas y tiempo libre",
-      "Día 11: San Petersburgo — Visitas y tiempo libre"
-    ],
-    "precio_publicado": null,
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
-    "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
-  },
-  {
-    "slug": "balalayka",
-    "url": "https://russia.com.mx/viajes-rusia/balalayka",
-    "nombre": "Balalayka",
-    "region": "Rusia",
-    "dias": 10,
-    "noches": 9,
-    "ciudades": [
-      "Moscú",
-      "San Petersburgo",
-      "Tallin"
-    ],
-    "salidas": "De mayo a septiembre",
-    "modalidad": "Clásico",
-    "idioma_guia": "Español",
-    "resumen": "Combinado Rusia más Tallin en 10 días, con un cierre báltico que pocos itinerarios incluyen.",
-    "incluye": [
-      "Vuelos internacionales con conexión y traslados",
-      "Hospedaje en hoteles 4★ con desayuno ruso",
-      "Guía hispanohablante en cada ciudad",
-      "Tour panorámico, Kremlin y Plaza Roja en Moscú",
-      "Hermitage y palacios de los zares en San Petersburgo",
-      "Asistencia 24/7 desde CDMX"
-    ],
-    "no_incluye": [
-      "Visa rusa (cotizada por separado, podemos tramitarla)",
-      "Comidas no incluidas en el programa",
-      "Propinas a guías y choferes",
-      "Excursiones opcionales"
-    ],
-    "destacados": [
-      "Moscú (Kremlin y Plaza Roja)",
-      "San Petersburgo (Hermitage)",
-      "Tallin"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada y city tour",
-      "Día 2: Moscú — Visitas y tiempo libre",
-      "Día 3: Moscú — Última actividad y traslado",
-      "Día 4: San Petersburgo — Llegada y city tour",
-      "Día 5: San Petersburgo — Visitas y tiempo libre",
-      "Día 6: San Petersburgo — Última actividad y traslado",
-      "Día 7: Tallin — Llegada y city tour",
-      "Día 8: Tallin — Visitas y tiempo libre",
-      "Día 9: Tallin — Visitas y tiempo libre",
-      "Día 10: Tallin — Visitas y tiempo libre"
-    ],
-    "precio_publicado": null,
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
-    "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
-  },
-  {
-    "slug": "kalinka",
-    "url": "https://russia.com.mx/viajes-rusia/kalinka",
-    "nombre": "Kalinka",
-    "region": "Rusia",
-    "dias": 10,
-    "noches": 9,
-    "ciudades": [
-      "Moscú",
-      "San Petersburgo",
-      "Helsinki"
-    ],
-    "salidas": "De mayo a septiembre",
-    "modalidad": "Clásico",
-    "idioma_guia": "Español",
-    "resumen": "Rusia con extensión a Helsinki en 10 días para cerrar el círculo del Báltico.",
-    "incluye": [
-      "Vuelos internacionales con conexión y traslados",
-      "Hospedaje en hoteles 4★ con desayuno ruso",
-      "Guía hispanohablante en cada ciudad",
-      "Tour panorámico, Kremlin y Plaza Roja en Moscú",
-      "Hermitage y palacios de los zares en San Petersburgo",
-      "Asistencia 24/7 desde CDMX"
-    ],
-    "no_incluye": [
-      "Visa rusa (cotizada por separado, podemos tramitarla)",
-      "Comidas no incluidas en el programa",
-      "Propinas a guías y choferes",
-      "Excursiones opcionales"
-    ],
-    "destacados": [
-      "Moscú (Kremlin y Plaza Roja)",
-      "San Petersburgo (Hermitage)",
-      "Helsinki"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada y city tour",
-      "Día 2: Moscú — Visitas y tiempo libre",
-      "Día 3: Moscú — Última actividad y traslado",
-      "Día 4: San Petersburgo — Llegada y city tour",
-      "Día 5: San Petersburgo — Visitas y tiempo libre",
-      "Día 6: San Petersburgo — Última actividad y traslado",
-      "Día 7: Helsinki — Llegada y city tour",
-      "Día 8: Helsinki — Visitas y tiempo libre",
-      "Día 9: Helsinki — Visitas y tiempo libre",
-      "Día 10: Helsinki — Visitas y tiempo libre"
-    ],
-    "precio_publicado": null,
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
-    "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
-  },
-  {
-    "slug": "stop-over-moscu",
-    "url": "https://russia.com.mx/viajes-rusia/stop-over-moscu",
-    "nombre": "Stop Over Moscú",
-    "region": "Rusia",
-    "dias": 4,
-    "noches": 3,
-    "ciudades": [
-      "Moscú"
-    ],
-    "salidas": "De abril a octubre",
-    "modalidad": "Stop Over",
-    "idioma_guia": "Español",
-    "resumen": "Tres noches en Moscú con tour panorámico, Kremlin y Plaza Roja; pensado como extensión de otro viaje.",
-    "incluye": [
-      "Vuelos internacionales con conexión y traslados",
-      "Hospedaje en hoteles 4★ con desayuno ruso",
-      "Guía hispanohablante en cada ciudad",
-      "Tour panorámico, Kremlin y Plaza Roja en Moscú",
-      "Hermitage y palacios de los zares en San Petersburgo",
-      "Asistencia 24/7 desde CDMX"
-    ],
-    "no_incluye": [
-      "Visa rusa (cotizada por separado, podemos tramitarla)",
-      "Comidas no incluidas en el programa",
-      "Propinas a guías y choferes",
-      "Excursiones opcionales"
-    ],
-    "destacados": [
-      "Tour panorámico",
-      "Kremlin",
-      "Plaza Roja"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada y city tour",
-      "Día 2: Moscú — Visitas y tiempo libre",
-      "Día 3: Moscú — Visitas y tiempo libre",
-      "Día 4: Moscú — Visitas y tiempo libre"
-    ],
-    "precio_publicado": null,
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
-    "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
-  },
-  {
-    "slug": "stop-over-san-petersburgo",
-    "url": "https://russia.com.mx/viajes-rusia/stop-over-san-petersburgo",
-    "nombre": "Stop Over San Petersburgo",
-    "region": "Rusia",
-    "dias": 4,
-    "noches": 3,
-    "ciudades": [
-      "San Petersburgo"
-    ],
-    "salidas": "De abril a octubre",
-    "modalidad": "Stop Over",
-    "idioma_guia": "Español",
-    "resumen": "Tres noches en San Petersburgo, la Venecia del Norte, con Hermitage, Peterhof y canales; pensado como extensión.",
-    "incluye": [
-      "Vuelos internacionales con conexión y traslados",
-      "Hospedaje en hoteles 4★ con desayuno ruso",
-      "Guía hispanohablante en cada ciudad",
-      "Tour panorámico, Kremlin y Plaza Roja en Moscú",
-      "Hermitage y palacios de los zares en San Petersburgo",
-      "Asistencia 24/7 desde CDMX"
-    ],
-    "no_incluye": [
-      "Visa rusa (cotizada por separado, podemos tramitarla)",
-      "Comidas no incluidas en el programa",
-      "Propinas a guías y choferes",
-      "Excursiones opcionales"
-    ],
-    "destacados": [
-      "Hermitage",
-      "Peterhof",
-      "Canales"
-    ],
-    "itinerario": [
-      "Día 1: San Petersburgo — Llegada y city tour",
-      "Día 2: San Petersburgo — Visitas y tiempo libre",
-      "Día 3: San Petersburgo — Visitas y tiempo libre",
-      "Día 4: San Petersburgo — Visitas y tiempo libre"
-    ],
-    "precio_publicado": null,
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
-    "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
-  },
-  {
-    "slug": "transiberiano",
-    "url": "https://russia.com.mx/viajes-rusia/transiberiano",
-    "nombre": "Transiberiano",
-    "region": "Rusia",
-    "dias": 16,
-    "noches": 15,
-    "ciudades": [
-      "Moscú",
-      "Kazán",
-      "Ekaterimburgo",
-      "Irkutsk",
-      "Lago Baikal",
-      "Vladivostok"
-    ],
-    "salidas": "Salidas selectas de junio a septiembre",
-    "modalidad": "Tren",
-    "idioma_guia": "Español",
-    "resumen": "El tren más legendario del mundo: 9.288 km de Moscú al Pacífico cruzando los Urales, Siberia y el Baikal, en 16 días.",
-    "incluye": [
-      "Vuelos internacionales con conexión y traslados",
-      "Hospedaje en hoteles 4★ con desayuno ruso",
-      "Guía hispanohablante en cada ciudad",
-      "Tour panorámico, Kremlin y Plaza Roja en Moscú",
-      "Hermitage y palacios de los zares en San Petersburgo",
-      "Asistencia 24/7 desde CDMX"
-    ],
-    "no_incluye": [
-      "Visa rusa (cotizada por separado, podemos tramitarla)",
-      "Comidas no incluidas en el programa",
-      "Propinas a guías y choferes",
-      "Excursiones opcionales"
-    ],
-    "destacados": [
-      "9.288 km en el Transiberiano",
-      "Cruce de los Urales y Siberia",
-      "Kazán",
-      "Ekaterimburgo",
-      "Lago Baikal",
-      "Vladivostok en el Pacífico"
-    ],
-    "itinerario": [
-      "Día 1: Moscú — Llegada y city tour",
-      "Día 2: Moscú — Última actividad y traslado",
-      "Día 3: Kazán — Llegada y city tour",
-      "Día 4: Kazán — Última actividad y traslado",
-      "Día 5: Ekaterimburgo — Llegada y city tour",
-      "Día 6: Ekaterimburgo — Última actividad y traslado",
-      "Día 7: Irkutsk — Llegada y city tour",
-      "Día 8: Irkutsk — Última actividad y traslado",
-      "Día 9: Lago Baikal — Llegada y city tour",
-      "Día 10: Lago Baikal — Última actividad y traslado",
-      "Día 11: Vladivostok — Llegada y city tour",
-      "Día 12: Vladivostok — Visitas y tiempo libre",
-      "Día 13: Vladivostok — Visitas y tiempo libre",
-      "Día 14: Vladivostok — Visitas y tiempo libre",
-      "Día 15: Vladivostok — Visitas y tiempo libre",
-      "Día 16: Vladivostok — Visitas y tiempo libre"
-    ],
-    "precio_publicado": null,
-    "visa": "Requerida (la tramitamos)",
-    "mejor_temporada": "Mayo a septiembre · Diciembre para nieve",
-    "nota_datos": "Incluye/no incluye es texto genérico de plantilla de la web (menciona vuelos internacionales y Kremlin/Hermitage aun en paquetes que no los visitan); contradice a Encantos de Rusia y Anillo de Oro, que NO incluyen vuelos. Itinerario genérico. Confirmar al cotizar."
-  },
-  {
-    "slug": "suenos-del-invierno-laponia",
-    "url": "https://russia.com.mx/paquetes/suenos-del-invierno-laponia",
-    "nombre": "Sueños del Invierno — Laponia",
-    "region": "Escandinavia",
-    "dias": 7,
-    "noches": 6,
-    "ciudades": [
-      "Rovaniemi",
-      "Kemi",
-      "Saariselkä"
-    ],
-    "salidas": "Llegadas fijas: 18 y 24 de enero · 8 y 15 de febrero · 7 de marzo",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español (el detalle indica guía acompañante bilingüe español-portugués)",
-    "resumen": "Invierno ártico en la Laponia finlandesa en categoría primera, con huskies, rompehielos, castillo de hielo, cabaña Aurora y safari de auroras boreales. Servicios en regular y llegadas fijas.",
-    "incluye": [
-      "Guía acompañante bilingüe español-portugués",
-      "5 noches en hoteles (Scandic Rovaniemi o similar) y 1 noche en Aurora Cabin (Northern Lights Village, Saariselkä)",
-      "1 cena y 5 almuerzos",
-      "Alquiler de ropa térmica de invierno (días 2 a 7)",
-      "Huskies (5 km en trineo), aldea de Papá Noel, rompehielos Sampo 3h30, Castillo de Hielo de Kemi",
-      "Sauna, piscina de hielo y jacuzzi (día 4)",
-      "Safari en motonieve 2 h, granja Sami con renos, safari nocturno de auroras (día 5)",
-      "Zoológico Ranua 4 h",
-      "Maletero en hoteles (1 maleta de 20 kg)"
-    ],
-    "no_incluye": [
-      "Tickets de avión y/o ferrocarril",
-      "Traslados de llegada y salida (contratables con costo adicional)",
-      "Otros servicios no mencionados como incluidos"
-    ],
-    "destacados": [
-      "Trineo de huskies",
-      "Rompehielos Sampo",
-      "Castillo de Hielo de Kemi",
-      "Aldea y oficina de Papá Noel",
-      "Cabañas Aurora con safari de auroras boreales",
-      "Granja Sami con renos"
-    ],
-    "itinerario": [
-      "Día 1: Rovaniemi — Llegada",
-      "Día 2: Rovaniemi — Huskies y aldea de Papá Noel",
-      "Día 3: Rovaniemi → Kemi → Rovaniemi — Castillo de hielo y rompehielos Sampo",
-      "Día 4: Rovaniemi → Saariselkä — Hacia el norte y cabañas Aurora",
-      "Día 5: Saariselkä → Rovaniemi — Motonieve, granja Sami y safari aurora boreal",
-      "Día 6: Rovaniemi — Zoológico Ranua",
-      "Día 7: Rovaniemi — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "EUR",
-      "desde_por_persona": 2950,
-      "base": "hab. doble, sin vuelos, servicios en regular",
-      "notas": [
-        "Precios cotizados en EUR por persona",
-        "Depósito 40% al confirmar (plazo 10 días hábiles); 60% restante 100 días antes del inicio",
-        "Cancelación sin recargo hasta 100 días antes; entre 99 y 70 días se pierde el depósito del 40%; a 69 días o menos, 100%"
-      ]
+    "3 pax": {
+     "4*": 4110,
+     "5*": 4470
     },
-    "visa": null,
-    "mejor_temporada": null
-  },
-  {
-    "slug": "paises-balticos",
-    "url": "https://russia.com.mx/paquetes/paises-balticos",
-    "nombre": "Países Bálticos",
-    "region": "Bálticos",
-    "dias": 8,
-    "noches": 7,
-    "ciudades": [
-      "Vilnius",
-      "Riga",
-      "Tallinn"
-    ],
-    "salidas": "Llegadas fijas a Vilnius · del 24 de marzo al 1 de diciembre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español",
-    "resumen": "Las tres capitales bálticas (Vilnius, Riga, Tallinn) en 8 días con paradas en Kaunas, Sigulda y Pärnu; servicios privados, hoteles 4★ y guía oficial en español del día 2 al 6.",
-    "incluye": [
-      "7 noches en hoteles 4★ con desayuno buffet",
-      "2 almuerzos de 3 platos (días 3 y 5)",
-      "Minibús/autocar climatizado",
-      "Guía oficial local solo en español del día 2 al 6",
-      "Audio-radio para grupos de más de 15 personas"
-    ],
-    "no_incluye": [
-      "Excursión opcional a Helsinki",
-      "Vuelos internacionales",
-      "Propinas",
-      "Maleteros",
-      "Todo lo no mencionado como incluido"
-    ],
-    "destacados": [
-      "Colina de las Cruces",
-      "Riga, el París del Norte",
-      "Valle del Gauja, Sigulda y cueva Gutmanis",
-      "Pärnu",
-      "Tallinn medieval",
-      "Opcionales: Trakai, Jurmala, Rocca al Mare, Helsinki en ferry"
-    ],
-    "itinerario": [
-      "Día 1: Vilnius — Llegada",
-      "Día 2: Vilnius — City tour y opcional Trakai",
-      "Día 3: Vilnius → Kaunas → Colina de las Cruces → Riga — Camino a Letonia",
-      "Día 4: Riga — Riga, el París del Norte",
-      "Día 5: Riga → Sigulda → Pärnu → Tallinn — Valle del Gauja y Pärnu",
-      "Día 6: Tallinn — Tallinn medieval",
-      "Día 7: Tallinn — Día libre · opcional Helsinki",
-      "Día 8: Tallinn — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "EUR",
-      "desde_por_persona": 1490,
-      "base": "mín. 2 pax, hab. doble, sin vuelos",
-      "notas": [
-        "Precios netos por persona en EUR",
-        "Variante: terminar en sábado descontando una noche en Tallinn (-85 EUR p.p.)",
-        "Opcionales: Trakai 47 EUR; Jurmala 47 EUR; Rocca al Mare 47 EUR; Helsinki 281 EUR (mín. 6, sin almuerzo)",
-        "Suplemento 6 cenas 281 EUR; 5 cenas + 3 almuerzos 369 EUR",
-        "Cancelación a menos de 20 días 30%; a menos de 5 días 50%; a menos de 4 días 100%"
-      ]
+    "4 pax": {
+     "4*": 3650,
+     "5*": 3950
     },
-    "visa": null,
-    "mejor_temporada": null
-  },
-  {
-    "slug": "rumania-dracula",
-    "url": "https://russia.com.mx/paquetes/rumania-dracula",
-    "nombre": "Rumania — Huellas de Drácula",
-    "region": "Europa del Este",
-    "dias": 7,
-    "noches": 6,
-    "ciudades": [
-      "Bucarest",
-      "Sighisoara",
-      "Bucovina",
-      "Piatra Neamt",
-      "Brasov"
-    ],
-    "salidas": "Llegadas diarias a Bucarest · del 20 de abril al 26 de octubre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español",
-    "resumen": "Ruta de 7 días por Transilvania, Bucovina y los Cárpatos siguiendo la leyenda de Drácula, con hoteles 4★/5★ y guía en español durante todo el recorrido.",
-    "incluye": [
-      "Hoteles 4★/5★ con desayuno buffet",
-      "Media pensión: 5 almuerzos y 2 cenas con agua mineral",
-      "Transporte con aire acondicionado",
-      "Traslados regulares sin guía",
-      "Guía de habla hispana durante todo el recorrido",
-      "Visitas del itinerario"
-    ],
-    "no_incluye": [
-      "Tickets de avión",
-      "Otras bebidas en las comidas",
-      "Propinas",
-      "Maleteros y transporte de equipajes",
-      "Otros servicios no mencionados"
-    ],
-    "destacados": [
-      "Castillo de Bran (Drácula)",
-      "Sighișoara, cuna de Drácula",
-      "Monasterios pintados de Bucovina (Voroneț)",
-      "Gargantas de Bicaz",
-      "Castillo Peleș en Sinaia",
-      "Iglesia Negra de Brașov"
-    ],
-    "itinerario": [
-      "Día 1: Bucarest — Llegada",
-      "Día 2: Bucarest → Sibiu → Sighișoara — Cozia, Sibiu y la cuna de Drácula",
-      "Día 3: Sighișoara → Târgu Mureș → Gura Humorului — Bucovina y Voroneț",
-      "Día 4: Gura Humorului → Piatra Neamț — Monasterios pintados",
-      "Día 5: Piatra Neamț → Gargantas de Bicaz → Bran → Brașov — Castillo de Drácula",
-      "Día 6: Brașov → Sinaia → Bucarest — Castillo Peleș y la capital",
-      "Día 7: Bucarest — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "EUR",
-      "desde_por_persona": 1690,
-      "base": "mín. 2 pax, hab. doble",
-      "notas": [
-        "Precios netos por persona en EUR",
-        "Cancelación hasta 30 días antes sin gastos; 29 a 15 días 25%; 14 a 10 días 50%; 9 días o menos 100%"
-      ]
+    "5 pax": {
+     "4*": 3530,
+     "5*": 3830
     },
-    "visa": null,
-    "mejor_temporada": null
-  },
-  {
-    "slug": "viaje-de-los-suenos",
-    "url": "https://russia.com.mx/paquetes/viaje-de-los-suenos",
-    "nombre": "Viaje de los Sueños",
-    "region": "Escandinavia",
-    "dias": 14,
-    "noches": 13,
-    "ciudades": [
-      "Copenhague",
-      "Oslo",
-      "Bergen",
-      "Estocolmo",
-      "Helsinki",
-      "Tallin"
-    ],
-    "salidas": "Llegadas diarias a Copenhague · del 7 de mayo al 10 de septiembre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español",
-    "resumen": "Gran circuito nórdico de 14 días por Dinamarca, Noruega, Suecia, Finlandia y Estonia, con dos cruceros nocturnos (DFDS y Tallink Silja), fiordos y capitales, y guía acompañante en español.",
-    "incluye": [
-      "11 noches en hoteles 4★ con desayuno buffet",
-      "2 noches a bordo (DFDS Copenhague–Oslo y Tallink Silja Estocolmo–Helsinki) en camarote con vista al mar",
-      "4 cenas",
-      "Guía acompañante en español todo el itinerario",
-      "Visitas panorámicas con guías locales hispanohablantes",
-      "Autocar privado con Wi-Fi del día 4 al 10",
-      "1 maleta de 20 kg + equipaje de mano de 5 kg"
-    ],
-    "no_incluye": [
-      "Vuelos internacionales y boletos de tren",
-      "Traslados de llegada y salida individuales",
-      "Otros servicios no mencionados"
-    ],
-    "destacados": [
-      "Crucero DFDS Copenhague–Oslo",
-      "Sognefjord y Bryggen (Bergen)",
-      "Iglesia de madera de Borgund",
-      "Gamla Stan y Palacio Real en Estocolmo",
-      "Crucero Tallink Silja a Helsinki",
-      "Excursión a Tallin"
-    ],
-    "itinerario": [
-      "Día 1: Copenhague — Llegada",
-      "Día 2: Copenhague — Visita panorámica",
-      "Día 3: Copenhague → Oslo — Crucero DFDS Scandinavian Seaways",
-      "Día 4: Oslo → Geilo — Frogner, Akershus y ruta a Fagernes",
-      "Día 5: Geilo → Bergen — Sognefjord y Bryggen",
-      "Día 6: Bergen → Balestrand — Ferry Oppedal–Lavik",
-      "Día 7: Balestrand → Oslo — Iglesia de madera de Borgund",
-      "Día 8: Oslo — Día libre",
-      "Día 9: Oslo → Estocolmo — Karlstad y Castillo de Gripsholm",
-      "Día 10: Estocolmo — Gamla Stan y Palacio Real",
-      "Día 11: Estocolmo → Helsinki — Crucero Tallink Silja Line",
-      "Día 12: Helsinki — Visita panorámica",
-      "Día 13: Helsinki → Tallin → Helsinki — Excursión a Tallin",
-      "Día 14: Helsinki — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "EUR",
-      "desde_por_persona": 3290,
-      "base": "mín. 2 pax, hab. doble",
-      "notas": [
-        "Precios netos por persona en EUR",
-        "Cancelación hasta 65 días antes sin gastos; 64 a 45 días 50%; a menos de 44 días 100%"
-      ]
-    },
-    "visa": null,
-    "mejor_temporada": null
-  },
-  {
-    "slug": "suenos-de-escandinavia",
-    "url": "https://russia.com.mx/paquetes/suenos-de-escandinavia",
-    "nombre": "Sueños de Escandinavia",
-    "region": "Escandinavia",
-    "dias": 11,
-    "noches": 10,
-    "ciudades": [
-      "Copenhague",
-      "Oslo",
-      "Bergen",
-      "Balestrand",
-      "Estocolmo"
-    ],
-    "salidas": "Llegadas diarias a Copenhague · del 7 de mayo al 10 de septiembre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español",
-    "resumen": "Circuito de 11 días por Dinamarca, Noruega y Suecia con crucero DFDS, fiordos noruegos y las capitales nórdicas, con guía acompañante en español.",
-    "incluye": [
-      "9 noches en hoteles 4★ con desayuno buffet",
-      "1 noche a bordo del DFDS Copenhague–Oslo en camarote con vista al mar",
-      "3 cenas",
-      "Guía acompañante en español",
-      "Autocar privado con Wi-Fi del día 4 al 10",
-      "1 maleta de 20 kg + equipaje de mano de 5 kg"
-    ],
-    "no_incluye": [
-      "Vuelos internacionales y boletos de tren",
-      "Traslados de llegada y salida individuales",
-      "Otros servicios no mencionados"
-    ],
-    "destacados": [
-      "Crucero DFDS a Oslo",
-      "Sognefjord y Bryggen",
-      "Ferry Oppedal–Lavik",
-      "Iglesia de madera de Borgund",
-      "Castillo de Gripsholm",
-      "Gamla Stan y Palacio Real"
-    ],
-    "itinerario": [
-      "Día 1: Copenhague — Llegada",
-      "Día 2: Copenhague — Visita panorámica",
-      "Día 3: Copenhague → Oslo — Crucero DFDS Scandinavian Seaways",
-      "Día 4: Oslo → Geilo — Frogner, Akershus y ruta a Geilo",
-      "Día 5: Geilo → Bergen — Sognefjord y Bryggen",
-      "Día 6: Bergen → Balestrand — Ferry Oppedal–Lavik",
-      "Día 7: Balestrand → Oslo — Iglesia de madera de Borgund",
-      "Día 8: Oslo — Día libre",
-      "Día 9: Oslo → Estocolmo — Karlstad y Castillo de Gripsholm",
-      "Día 10: Estocolmo — Gamla Stan y Palacio Real",
-      "Día 11: Estocolmo — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "EUR",
-      "desde_por_persona": 2590,
-      "base": "mín. 2 pax, hab. doble",
-      "notas": [
-        "Precios netos por persona en EUR",
-        "Cancelación hasta 65 días antes sin gastos; 64 a 50 días 50%; a menos de 49 días 100%"
-      ]
-    },
-    "visa": null,
-    "mejor_temporada": null
-  },
-  {
-    "slug": "centro-de-eurasia-kazajistan",
-    "url": "https://russia.com.mx/paquetes/centro-de-eurasia-kazajistan",
-    "nombre": "El Viaje al Centro de Eurasia — Kazajistán",
-    "region": "Asia Central",
-    "dias": 8,
-    "noches": 7,
-    "ciudades": [
-      "Almaty",
-      "Turquestán",
-      "Shymkent",
-      "Astana"
-    ],
-    "salidas": "Llegadas diarias a Almaty · ventas se cierran 25-30 días antes",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español en Almaty y Astana; inglés en Turquestán y Shymkent",
-    "resumen": "Kazajistán en privado en 8 días: Almaty, Cañón de Charyn, Turquestán (UNESCO), Shymkent y Astana, con una noche en tren y hoteles 4★.",
-    "incluye": [
-      "Hoteles 4★ con desayuno (3 noches Almaty, 1 Turquestán, 1 Shymkent, 2 Astana)",
-      "1 noche en tren Almaty–Turquestán (compartimento de 4 camas)",
-      "8 desayunos y 2 almuerzos",
-      "Transporte privado con A/A",
-      "Entradas a museos y teleféricos",
-      "Guías en español (Almaty, Astana) e inglés (Turquestán, Shymkent)",
-      "Agua 0,5 L diaria, regalos y maleteros"
-    ],
-    "no_incluye": [
-      "Vuelos internacionales",
-      "Suplemento por alojamiento individual",
-      "Vuelo doméstico Shymkent–Astana (desde 154 USD p.p.)",
-      "Gastos personales"
-    ],
-    "destacados": [
-      "Almaty: Medeo–Shymbulak y Kok-Tobe",
-      "Cañón de Charyn y Valle de los Castillos",
-      "Tren nocturno Almaty–Turquestán",
-      "Mausoleo Yasawi (UNESCO)",
-      "Torre Baiterek en Astana",
-      "Gran Mezquita y Pirámide de la Paz"
-    ],
-    "itinerario": [
-      "Día 1: Almaty — City tour, Medeo–Shymbulak y Kok-Tobe",
-      "Día 2: Almaty → Cañón de Charyn → Almaty — Valle de los Castillos",
-      "Día 3: Almaty → Turquestán — Pueblo étnico Los Hunos · tren nocturno",
-      "Día 4: Turquestán — Mausoleo Yasawi y ruinas de Sauran",
-      "Día 5: Turquestán → Otrar → Shymkent — Mausoleo de Arystan-Bab y Otrar",
-      "Día 6: Shymkent → Astana — Vuelo doméstico y Baiterek",
-      "Día 7: Astana — Pirámide de la Paz, Nur Alem y Gran Mezquita",
-      "Día 8: Astana — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "USD",
-      "desde_por_persona": 1890,
-      "base": "precio neto, mín. 1 pax, servicios privados",
-      "notas": [
-        "Precios netos por persona en USD",
-        "Vuelo doméstico Shymkent–Astana se cotiza aparte (desde 154 USD p.p.)",
-        "Ventas de cada salida se cierran 25-30 días antes de la llegada",
-        "Cancelación 35 días antes sin gastos; 25 días 50%; 15 días 100%"
-      ]
-    },
-    "visa": null,
-    "mejor_temporada": null
-  },
-  {
-    "slug": "polonia",
-    "url": "https://russia.com.mx/paquetes/polonia",
-    "nombre": "Polonia — Viaje Completo",
-    "region": "Europa del Este",
-    "dias": 9,
-    "noches": 8,
-    "ciudades": [
-      "Varsovia",
-      "Cracovia",
-      "Wroclaw",
-      "Torun",
-      "Gdansk"
-    ],
-    "salidas": "Llegadas diarias a Varsovia · del 31 de mayo al 11 de octubre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español",
-    "resumen": "Gran tour de Polonia de 9 días por cinco ciudades, con Auschwitz-Birkenau, minas de Wieliczka y castillo de Malbork, hoteles 4★ y media pensión.",
-    "incluye": [
-      "Hoteles 4★",
-      "Media pensión: 8 desayunos, 7 almuerzos y 1 cena",
-      "Guía acompañante hispanohablante (chofer-guía si el grupo es menor a 6 pax)",
-      "Autobús de hasta 49 plazas",
-      "Guías locales y entradas indicadas",
-      "Degustación de 4 cervezas en Piwnica Świdnicka",
-      "Traslado de llegada en regular"
-    ],
-    "no_incluye": [
-      "Bebidas alcohólicas en comidas",
-      "Propinas y gastos personales",
-      "Vuelos",
-      "Seguro médico y de viaje",
-      "Ascensor de las minas de Wieliczka",
-      "Maleteros",
-      "Traslado de salida"
-    ],
-    "destacados": [
-      "Minas de sal de Wieliczka (UNESCO)",
-      "Auschwitz-Birkenau",
-      "Castillo de Wawel y casco antiguo de Cracovia",
-      "Degustación en Piwnica Świdnicka (Wrocław)",
-      "Casco antiguo de Toruń (UNESCO)",
-      "Castillo teutónico de Malbork (UNESCO)"
-    ],
-    "itinerario": [
-      "Día 1: Varsovia — Llegada",
-      "Día 2: Varsovia → Cracovia — Visita panorámica y traslado",
-      "Día 3: Cracovia — Wieliczka y casco antiguo",
-      "Día 4: Cracovia → Wrocław — Auschwitz-Birkenau",
-      "Día 5: Wrocław → Toruń — Wrocław y degustación en Piwnica Świdnicka",
-      "Día 6: Toruń → Westerplatte → Gdańsk — Cuna de Copérnico y memorial de Westerplatte",
-      "Día 7: Gdańsk — Sopot, Oliwa y Gdańsk",
-      "Día 8: Gdańsk → Malbork → Olsztynek → Varsovia — Castillo teutónico de Malbork",
-      "Día 9: Varsovia — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "EUR",
-      "desde_por_persona": 1790,
-      "base": "mín. 2 pax, hab. doble",
-      "notas": [
-        "Precios netos por persona en EUR",
-        "Traslado de salida no incluido",
-        "Cancelación 55 a 50 días sin gastos; 49 a 40 días 10%; 39 a 25 días 25%; 24 a 14 días 50%; 13 a 7 días 80%; 6 a 0 días 100%"
-      ]
-    },
-    "visa": null,
-    "mejor_temporada": null
-  },
-  {
-    "slug": "magia-del-caucaso",
-    "url": "https://russia.com.mx/paquetes/magia-del-caucaso",
-    "nombre": "La Magia del Cáucaso",
-    "region": "Cáucaso",
-    "dias": 14,
-    "noches": 13,
-    "ciudades": [
-      "Bakú",
-      "Sheki",
-      "Tbilisi",
-      "Gudauri",
-      "Akhaltsikhe",
-      "Ereván"
-    ],
-    "salidas": "Llegadas diarias a Bakú · del 8 de mayo al 30 de octubre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español (guía de habla hispana o inglesa según el programa)",
-    "resumen": "Azerbaiyán, Georgia y Armenia en privado: gran circuito de 14 días y una variante de 10 días Bakú–Ereván con hoteles 4★ o 5★. Solo la variante de 10 días tiene precios publicados.",
-    "incluye": [
-      "14 días: hoteles 3★/4★ (2 noches Bakú, 1 Sheki, 5 Tbilisi, 1 Gudauri, 1 Akhaltsikhe, 3 Ereván)",
-      "14 desayunos, cena de bienvenida con danzas georgianas, cena en Gudauri y degustación de vinos en Sighnaghi",
-      "Traslados aeropuerto-hotel-aeropuerto sin guía",
-      "Transporte privado y entradas del programa",
-      "Guía de habla hispana o inglesa",
-      "Agua mineral diaria",
-      "10 días: desayunos, concierto de duduk y masterclass de lavash"
-    ],
-    "no_incluye": [
-      "Vuelos internacionales",
-      "Bebidas alcohólicas",
-      "Gastos de visado si fuera necesario",
-      "Maleteros",
-      "Servicios opcionales (cata de vinos, e-visa, museo etnográfico, cena folk, concierto a capella) bajo suplemento"
-    ],
-    "destacados": [
-      "Bakú: casco viejo, Yanar Dag y Gobustán",
-      "Palacio de los Khanes en Sheki",
-      "Tbilisi y vino en Kakheti (Sighnaghi)",
-      "Vía Militar Georgiana y Gergeti",
-      "Ciudad rupestre de Vardzia",
-      "Echmiadzín, Garni y Geghard en Armenia"
-    ],
-    "itinerario": [
-      "Día 1: Bakú — Llegada",
-      "Día 2: Bakú · Península de Absheron — Casco viejo y Yanar Dag",
-      "Día 3: Bakú → Gobustán → Shamakhi → Sheki — Petroglifos y mausoleo de Diri Baba",
-      "Día 4: Sheki → Lagodekhi → Tbilisi — Palacio de los Khanes y entrada a Georgia",
-      "Día 5: Tbilisi — Casco antiguo y cena de bienvenida",
-      "Día 6: Tbilisi · Kakheti · Tbilisi — Bodbe, Sighnaghi y degustación de vinos",
-      "Día 7: Tbilisi → Mtskheta → Stepantsminda → Gudauri — Vía Militar Georgiana y Gergeti",
-      "Día 8: Gudauri → Ananuri → Uplistsikhe → Gori → Akhaltsikhe — Fortalezas, ciudad rupestre y Stalin",
-      "Día 9: Akhaltsikhe → Vardzia → Ereván — Castillo de Rabati y ciudad rupestre de Vardzia",
-      "Día 10: Ereván · Echmiadzín · Ereván — Catedral de Echmiadzín y Matenadarán",
-      "Día 11: Ereván · Garni · Geghard · Khor Virap · Ereván — Templo helenístico y monasterio rupestre",
-      "Día 12: Ereván → Seván → Sadakhlo → Tbilisi — Lago Seván y monasterio de Haghpat",
-      "Día 13: Tbilisi — Día libre",
-      "Día 14: Tbilisi — Salida"
-    ],
-    "precio_publicado": {
-      "moneda": "USD",
-      "desde_por_persona": 3330,
-      "base": "6 pax, hab. doble/twin 4★ — solo variante de 10 días Bakú–Ereván; el circuito de 14 días no muestra precios",
-      "notas": [
-        "Precios netos por persona en USD",
-        "1 pax: 7 490 (4★) / 8 050 (5★) en hab. individual; 5★ desde 3 620 (6 pax)",
-        "Suplemento individual 680 (4★) / 850 (5★)",
-        "Media pensión +380 (9 almuerzos); pensión completa +740 (9 almuerzos + 9 cenas)",
-        "No aplicable del 22 al 28 de septiembre (Fórmula 1 en Azerbaiyán)",
-        "Cancelación (circuito de 14 días): hasta 40 días sin gastos; 39 a 25 días 30%; 24 a 16 días 70%; 15 días o menos 100%"
-      ]
-    },
-    "visa": "No incluye gastos de visado si fuera necesario; e-visa azerbaiyana opcional 55 USD por persona (también puede tramitarse en línea)",
-    "mejor_temporada": null,
-    "variante_10_dias": {
-      "descripcion": "Programa privado de 10 días / 9 noches Bakú–Ereván: 2 noches Bakú, 1 Sheki, 3 Tbilisi, 3 Ereván; hoteles 4★ (estándar) o 4-5★ (superior)",
-      "itinerario": [
-        "Día 1: Bakú — Llegada",
-        "Día 2: Bakú · Ateshgah · Yanar Dag — Casco antiguo y montaña ardiente",
-        "Día 3: Bakú → Gobustán → Shamakhi → Sheki — Pinturas rupestres de Gobustán (≈350 km)",
-        "Día 4: Sheki → Kish → Lagodekhi → Sighnaghi → Tbilisi — Palacio del Khan y entrada a Georgia",
-        "Día 5: Tbilisi — Capital de Georgia",
-        "Día 6: Tbilisi → Mtskheta → Uplistsikhe → Gori → Tbilisi — Antigua capital y ciudad tallada en la roca",
-        "Día 7: Tbilisi → Sadakhlo → Haghpat → Seván → Ereván — Entrada a Armenia",
-        "Día 8: Ereván → Echmiadzín → Zvartnots → Ereván — La ciudad santa y el templo de los ángeles",
-        "Día 9: Ereván → Khor Virap → Geghard → Garní → Ereván — Monasterios y templo de Mitra",
-        "Día 10: Ereván — Salida"
-      ],
-      "precios_usd_por_persona": {
-        "1 pax": {
-          "4*": 7490,
-          "5*": 8050,
-          "nota": "en hab. SGL"
-        },
-        "2 pax": {
-          "4*": 4700,
-          "5*": 5000
-        },
-        "3 pax": {
-          "4*": 4110,
-          "5*": 4470
-        },
-        "4 pax": {
-          "4*": 3650,
-          "5*": 3950
-        },
-        "5 pax": {
-          "4*": 3530,
-          "5*": 3830
-        },
-        "6 pax": {
-          "4*": 3330,
-          "5*": 3620
-        }
-      },
-      "suplemento_individual_usd": {
-        "4*": 680,
-        "5*": 850
-      },
-      "media_pension_usd_9_almuerzos": 380,
-      "pension_completa_usd": 740,
-      "opcionales_usd": {
-        "Cata de vinos en Georgia (mín. 4 pax)": 30,
-        "E-visa azerbaiyana": 55,
-        "Museo Etnográfico al Aire Libre": 35,
-        "Cena con folk show en Georgia (mín. 2 pax)": 90,
-        "Concierto a capella en Armenia (por servicio)": 210
-      }
+    "6 pax": {
+     "4*": 3330,
+     "5*": 3620
     }
-  },
-  {
-    "slug": "milagros-de-islandia",
-    "url": "https://russia.com.mx/paquetes/milagros-de-islandia",
-    "nombre": "Milagros de Islandia",
-    "region": "Atlántico Norte",
-    "dias": 8,
-    "noches": 7,
-    "ciudades": [
-      "Reykjavik",
-      "Akureyri",
-      "Husavik",
-      "Myvath",
-      "Hofn",
-      "Hella"
-    ],
-    "salidas": "Llegadas los sábados a Reikiavik · del 1 de junio al 31 de octubre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español (guía de habla castellana)",
-    "resumen": "Gran circuito por Islandia en 8 días con chofer islandés y guía en castellano, incluyendo baño geotermal, súper jeep en glaciar y barco anfibio en la laguna Jökulsárlón.",
-    "incluye": [
-      "Traslados aeropuerto Keflavík–hotel en regular (privado con suplemento)",
-      "7 noches en hoteles turista, turista superior y primera",
-      "Desayuno diario y 5 cenas (días 2 al 6)",
-      "Transporte privado con chofer islandés y guía de habla castellana",
-      "Mývatn Nature Baths con toalla, súper jeep en Vatnajökull y barco anfibio en Jökulsárlón",
-      "Documentación electrónica"
-    ],
-    "no_incluye": [
-      "Tickets de avión internacional",
-      "Maleteros",
-      "Otros servicios no mencionados"
-    ],
-    "destacados": [
-      "Mývatn Nature Baths",
-      "Goðafoss y Dettifoss",
-      "Súper jeep en el glaciar Vatnajökull",
-      "Laguna glaciar Jökulsárlón (barco anfibio)",
-      "Playa de Reynisfjara",
-      "Círculo de Oro (Gullfoss, Strokkur)"
-    ],
-    "itinerario": [
-      "Día 1: Keflavík → Reikiavik — Llegada",
-      "Día 2: Reikiavik → Akureyri — Cráter Grábrók y cañón Kolugljúfur",
-      "Día 3: Akureyri → Húsavik / Mývatn — Goðafoss y maravillas volcánicas de Mývatn",
-      "Día 4: Mývatn → Región Este — Ásbyrgi y Dettifoss",
-      "Día 5: Región Este → Höfn — Súper jeep en el glaciar Vatnajökull",
-      "Día 6: Höfn → Hella — Jökulsárlón, Reynisfjara y cascadas del sur",
-      "Día 7: Hella → Reikiavik — Círculo de Oro",
-      "Día 8: Reikiavik → Keflavík — Salida"
-    ],
-    "precio_publicado": null,
-    "visa": null,
-    "mejor_temporada": null,
-    "nota_datos": "Precios en EUR, mín. 2 pax, pero la página no muestra cifra. Gastos de gestión 200 EUR p.p. desde la confirmación, adicionales a gastos de anulación. Cancelación: hasta 65 días sin gastos; 65 a 35 días 30%; 34 a 20 días 60%; 19 a 9 días 80%; menos de 8 días 100%."
-  },
-  {
-    "slug": "perlas-de-iran",
-    "url": "https://russia.com.mx/paquetes/perlas-de-iran",
-    "nombre": "Las Perlas de Irán",
-    "region": "Medio Oriente",
-    "dias": 9,
-    "noches": 8,
-    "ciudades": [
-      "Teherán",
-      "Isfahán",
-      "Yazd",
-      "Shiraz"
-    ],
-    "salidas": "Llegadas diarias a Teherán · del 11 de mayo al 2 de noviembre",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español (guía exclusivo en español)",
-    "resumen": "Gran circuito privado de 9 días por la Persia milenaria (Teherán, Kashan, Isfahán, Yazd, Persépolis, Shiraz) con guía exclusivo en español y hoteles 4★.",
-    "incluye": [
-      "8 noches en hoteles 4★ con desayuno buffet",
-      "Transporte privado",
-      "6 almuerzos y 1 cena de despedida en la Mansión Shapuri (con refresco), 2 botellas de agua por persona y día",
-      "Guía acompañante exclusivo en español",
-      "Traslados privados aeropuerto-hotel-aeropuerto y entradas",
-      "Preparación del visado"
-    ],
-    "no_incluye": [
-      "Tickets de avión internacional",
-      "Vuelos internos si son necesarios",
-      "Tasa del visado",
-      "Propinas (recomendable 5 EUR por pasajero y día, pago local)",
-      "Gastos personales",
-      "Otros servicios no mencionados"
-    ],
-    "destacados": [
-      "Palacio de Golestán (Teherán)",
-      "Plaza Naqsh-e Jahan (Isfahán)",
-      "Puentes safávidas y barrio armenio",
-      "Templo del Fuego y Yazd",
-      "Persépolis y Naqsh-e Rostam",
-      "Mezquita Rosa y cena en Mansión Shapuri"
-    ],
-    "itinerario": [
-      "Día 1: Teherán — Llegada",
-      "Día 2: Teherán — Capital persa: Golestán y Torre Azadi",
-      "Día 3: Teherán → Kashan → Isfahán — Mausoleo del Imam Jomeini, Jardín Fin y Casa Tabatabai",
-      "Día 4: Isfahán — Naqsh-e Jahan, Ali Qapu y Charbagh",
-      "Día 5: Isfahán — Mezquita Jami, puentes safávidas y barrio armenio",
-      "Día 6: Isfahán → Yazd — Templo del Fuego, Dakhmeh y Fahadan",
-      "Día 7: Yazd → Persépolis → Naqsh-e Rostam → Shiraz — Joya de la Antigua Persia",
-      "Día 8: Shiraz — Mezquita Rosa, Hafez y cena en Mansión Shapuri",
-      "Día 9: Shiraz — Salida"
-    ],
-    "precio_publicado": null,
-    "visa": "Preparación del visado incluida; la tasa del visado no está incluida",
-    "mejor_temporada": null,
-    "nota_datos": "Precios en EUR, mín. 2 pax, pero la página no muestra cifra. Cancelación: 55 a 50 días sin gastos; 49 a 40 días 10%; 39 a 25 días 25%; 24 a 14 días 50%; 13 a 7 días 80%; menos de 6 días 100%."
-  },
-  {
-    "slug": "rumania-y-bulgaria",
-    "url": "https://russia.com.mx/paquetes/rumania-y-bulgaria",
-    "nombre": "Rumania y Bulgaria",
-    "region": "Europa del Este",
-    "dias": 10,
-    "noches": 9,
-    "ciudades": [
-      "Bucarest",
-      "Sibiu",
-      "Sighisoara",
-      "Bucovina",
-      "Brasov",
-      "Veliko Tarnovo",
-      "Plovdiv",
-      "Sofía"
-    ],
-    "salidas": "Llegadas fijas a Bucarest · servicios en regular",
-    "modalidad": "Circuito",
-    "idioma_guia": "Español",
-    "resumen": "Circuito de 10 días en regular por Rumania y Bulgaria: de la ruta de Drácula y Bucovina a Veliko Tarnovo, Plovdiv y el monasterio de Rila, con hoteles 4★/5★ y media pensión.",
-    "incluye": [
-      "Hoteles 4★ y 5★",
-      "Desayuno buffet diario",
-      "8 almuerzos y 2 cenas (bienvenida típica y cena con espectáculo folclórico) con agua mineral",
-      "Transporte con aire acondicionado",
-      "Traslados regulares sin guía",
-      "Guía de habla hispana durante el recorrido"
-    ],
-    "no_incluye": [
-      "Tickets de avión",
-      "Otras bebidas en las comidas",
-      "Propinas",
-      "Maleteros y transporte de equipajes",
-      "Otros servicios no mencionados"
-    ],
-    "destacados": [
-      "Castillo de Bran (Drácula)",
-      "Monasterios pintados de Bucovina",
-      "Castillo de Peleș",
-      "Fortaleza de Tsarevets (Veliko Tarnovo)",
-      "Casco antiguo de Plovdiv",
-      "Monasterio de Rila (UNESCO)"
-    ],
-    "itinerario": [
-      "Día 1: Bucarest — Llegada",
-      "Día 2: Bucarest → Sibiu → Sighisoara — Monasterio de Cozia y Sibiu",
-      "Día 3: Sighisoara → Targu Mures → Gura Humorului — Torre del Reloj y Voronet",
-      "Día 4: Gura Humorului → Bucovina → Piatra Neamt — Monasterios pintados de Bucovina",
-      "Día 5: Piatra Neamt → Bicaz → Bran → Brasov — Gargantas de Bicaz y Castillo de Drácula",
-      "Día 6: Brasov → Sinaia → Bucarest — Castillo de Peles y panorámica de Bucarest",
-      "Día 7: Bucarest → Ruse → Arbanassi → Veliko Tarnovo — Entrada a Bulgaria y fortaleza de Tsarevets",
-      "Día 8: Veliko Tarnovo → Plovdiv → Sofía — Casco antiguo de Plovdiv",
-      "Día 9: Sofía · Monasterio de Rila · Sofía — Monasterio de Rila y centro de Sofía",
-      "Día 10: Sofía — Salida"
-    ],
-    "precio_publicado": null,
-    "visa": null,
-    "mejor_temporada": null,
-    "nota_datos": "Precios netos en EUR, mín. 2 pax, pero la página no muestra cifra. Cancelación: hasta 30 días sin gastos; 29 a 10 días 50%; menos de 9 días 100%."
+   },
+   "suplemento_individual_usd": {
+    "4*": 680,
+    "5*": 850
+   },
+   "media_pension_usd_9_almuerzos": 380,
+   "pension_completa_usd": 740,
+   "opcionales_usd": {
+    "Cata de vinos en Georgia (mín. 4 pax)": 30,
+    "E-visa azerbaiyana": 55,
+    "Museo Etnográfico al Aire Libre": 35,
+    "Cena con folk show en Georgia (mín. 2 pax)": 90,
+    "Concierto a capella en Armenia (por servicio)": 210
+   }
   }
+ },
+ {
+  "slug": "milagros-de-islandia",
+  "url": "https://russia.com.mx/paquetes/milagros-de-islandia",
+  "nombre": "Milagros de Islandia",
+  "region": "Atlántico Norte",
+  "dias": 8,
+  "noches": 7,
+  "ciudades": [
+   "Reykjavik",
+   "Akureyri",
+   "Husavik",
+   "Myvath",
+   "Hofn",
+   "Hella"
+  ],
+  "salidas": "Llegadas los sábados a Reikiavik · del 1 de junio al 31 de octubre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español (guía de habla castellana)",
+  "resumen": "Gran circuito por Islandia en 8 días con chofer islandés y guía en castellano, incluyendo baño geotermal, súper jeep en glaciar y barco anfibio en la laguna Jökulsárlón.",
+  "incluye": [
+   "Traslados aeropuerto Keflavík–hotel en regular (privado con suplemento)",
+   "7 noches en hoteles turista, turista superior y primera",
+   "Desayuno diario y 5 cenas (días 2 al 6)",
+   "Transporte privado con chofer islandés y guía de habla castellana",
+   "Mývatn Nature Baths con toalla, súper jeep en Vatnajökull y barco anfibio en Jökulsárlón",
+   "Documentación electrónica"
+  ],
+  "no_incluye": [
+   "Tickets de avión internacional",
+   "Maleteros",
+   "Otros servicios no mencionados"
+  ],
+  "destacados": [
+   "Mývatn Nature Baths",
+   "Goðafoss y Dettifoss",
+   "Súper jeep en el glaciar Vatnajökull",
+   "Laguna glaciar Jökulsárlón (barco anfibio)",
+   "Playa de Reynisfjara",
+   "Círculo de Oro (Gullfoss, Strokkur)"
+  ],
+  "itinerario": [
+   "Día 1: Keflavík → Reikiavik — Llegada",
+   "Día 2: Reikiavik → Akureyri — Cráter Grábrók y cañón Kolugljúfur",
+   "Día 3: Akureyri → Húsavik / Mývatn — Goðafoss y maravillas volcánicas de Mývatn",
+   "Día 4: Mývatn → Región Este — Ásbyrgi y Dettifoss",
+   "Día 5: Región Este → Höfn — Súper jeep en el glaciar Vatnajökull",
+   "Día 6: Höfn → Hella — Jökulsárlón, Reynisfjara y cascadas del sur",
+   "Día 7: Hella → Reikiavik — Círculo de Oro",
+   "Día 8: Reikiavik → Keflavík — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null,
+  "nota_datos": "Precios en EUR, mín. 2 pax, pero la página no muestra cifra. Gastos de gestión 200 EUR p.p. desde la confirmación, adicionales a gastos de anulación. Cancelación: hasta 65 días sin gastos; 65 a 35 días 30%; 34 a 20 días 60%; 19 a 9 días 80%; menos de 8 días 100%."
+ },
+ {
+  "slug": "perlas-de-iran",
+  "url": "https://russia.com.mx/paquetes/perlas-de-iran",
+  "nombre": "Las Perlas de Irán",
+  "region": "Medio Oriente",
+  "dias": 9,
+  "noches": 8,
+  "ciudades": [
+   "Teherán",
+   "Isfahán",
+   "Yazd",
+   "Shiraz"
+  ],
+  "salidas": "Llegadas diarias a Teherán · del 11 de mayo al 2 de noviembre",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español (guía exclusivo en español)",
+  "resumen": "Gran circuito privado de 9 días por la Persia milenaria (Teherán, Kashan, Isfahán, Yazd, Persépolis, Shiraz) con guía exclusivo en español y hoteles 4★.",
+  "incluye": [
+   "8 noches en hoteles 4★ con desayuno buffet",
+   "Transporte privado",
+   "6 almuerzos y 1 cena de despedida en la Mansión Shapuri (con refresco), 2 botellas de agua por persona y día",
+   "Guía acompañante exclusivo en español",
+   "Traslados privados aeropuerto-hotel-aeropuerto y entradas",
+   "Preparación del visado"
+  ],
+  "no_incluye": [
+   "Tickets de avión internacional",
+   "Vuelos internos si son necesarios",
+   "Tasa del visado",
+   "Propinas (recomendable 5 EUR por pasajero y día, pago local)",
+   "Gastos personales",
+   "Otros servicios no mencionados"
+  ],
+  "destacados": [
+   "Palacio de Golestán (Teherán)",
+   "Plaza Naqsh-e Jahan (Isfahán)",
+   "Puentes safávidas y barrio armenio",
+   "Templo del Fuego y Yazd",
+   "Persépolis y Naqsh-e Rostam",
+   "Mezquita Rosa y cena en Mansión Shapuri"
+  ],
+  "itinerario": [
+   "Día 1: Teherán — Llegada",
+   "Día 2: Teherán — Capital persa: Golestán y Torre Azadi",
+   "Día 3: Teherán → Kashan → Isfahán — Mausoleo del Imam Jomeini, Jardín Fin y Casa Tabatabai",
+   "Día 4: Isfahán — Naqsh-e Jahan, Ali Qapu y Charbagh",
+   "Día 5: Isfahán — Mezquita Jami, puentes safávidas y barrio armenio",
+   "Día 6: Isfahán → Yazd — Templo del Fuego, Dakhmeh y Fahadan",
+   "Día 7: Yazd → Persépolis → Naqsh-e Rostam → Shiraz — Joya de la Antigua Persia",
+   "Día 8: Shiraz — Mezquita Rosa, Hafez y cena en Mansión Shapuri",
+   "Día 9: Shiraz — Salida"
+  ],
+  "visa": "Preparación del visado incluida; la tasa del visado no está incluida",
+  "mejor_temporada": null,
+  "nota_datos": "Precios en EUR, mín. 2 pax, pero la página no muestra cifra. Cancelación: 55 a 50 días sin gastos; 49 a 40 días 10%; 39 a 25 días 25%; 24 a 14 días 50%; 13 a 7 días 80%; menos de 6 días 100%."
+ },
+ {
+  "slug": "rumania-y-bulgaria",
+  "url": "https://russia.com.mx/paquetes/rumania-y-bulgaria",
+  "nombre": "Rumania y Bulgaria",
+  "region": "Europa del Este",
+  "dias": 10,
+  "noches": 9,
+  "ciudades": [
+   "Bucarest",
+   "Sibiu",
+   "Sighisoara",
+   "Bucovina",
+   "Brasov",
+   "Veliko Tarnovo",
+   "Plovdiv",
+   "Sofía"
+  ],
+  "salidas": "Llegadas fijas a Bucarest · servicios en regular",
+  "modalidad": "Circuito",
+  "idioma_guia": "Español",
+  "resumen": "Circuito de 10 días en regular por Rumania y Bulgaria: de la ruta de Drácula y Bucovina a Veliko Tarnovo, Plovdiv y el monasterio de Rila, con hoteles 4★/5★ y media pensión.",
+  "incluye": [
+   "Hoteles 4★ y 5★",
+   "Desayuno buffet diario",
+   "8 almuerzos y 2 cenas (bienvenida típica y cena con espectáculo folclórico) con agua mineral",
+   "Transporte con aire acondicionado",
+   "Traslados regulares sin guía",
+   "Guía de habla hispana durante el recorrido"
+  ],
+  "no_incluye": [
+   "Tickets de avión",
+   "Otras bebidas en las comidas",
+   "Propinas",
+   "Maleteros y transporte de equipajes",
+   "Otros servicios no mencionados"
+  ],
+  "destacados": [
+   "Castillo de Bran (Drácula)",
+   "Monasterios pintados de Bucovina",
+   "Castillo de Peleș",
+   "Fortaleza de Tsarevets (Veliko Tarnovo)",
+   "Casco antiguo de Plovdiv",
+   "Monasterio de Rila (UNESCO)"
+  ],
+  "itinerario": [
+   "Día 1: Bucarest — Llegada",
+   "Día 2: Bucarest → Sibiu → Sighisoara — Monasterio de Cozia y Sibiu",
+   "Día 3: Sighisoara → Targu Mures → Gura Humorului — Torre del Reloj y Voronet",
+   "Día 4: Gura Humorului → Bucovina → Piatra Neamt — Monasterios pintados de Bucovina",
+   "Día 5: Piatra Neamt → Bicaz → Bran → Brasov — Gargantas de Bicaz y Castillo de Drácula",
+   "Día 6: Brasov → Sinaia → Bucarest — Castillo de Peles y panorámica de Bucarest",
+   "Día 7: Bucarest → Ruse → Arbanassi → Veliko Tarnovo — Entrada a Bulgaria y fortaleza de Tsarevets",
+   "Día 8: Veliko Tarnovo → Plovdiv → Sofía — Casco antiguo de Plovdiv",
+   "Día 9: Sofía · Monasterio de Rila · Sofía — Monasterio de Rila y centro de Sofía",
+   "Día 10: Sofía — Salida"
+  ],
+  "visa": null,
+  "mejor_temporada": null,
+  "nota_datos": "Precios netos en EUR, mín. 2 pax, pero la página no muestra cifra. Cancelación: hasta 30 días sin gastos; 29 a 10 días 50%; menos de 9 días 100%."
+ }
 ]
