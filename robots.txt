@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://reyesbetancourt.github.io/2rusasmexas/sitemap.xml
+Sitemap: https://2rusasmexas.com/sitemap.xml
