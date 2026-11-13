@@ -1,6 +1,8 @@
 (() => {
+  window.RM_LISTO = true; // la página quita las animaciones de entrada si este archivo no llega a cargar
   const C = window.CONFIG || {};
   const $ = (s) => document.querySelector(s);
+  const $$ = (s) => [...document.querySelectorAll(s)];
   const BASE = document.body.dataset.base || "";
   const PAQUETE = document.body.dataset.paquete || "";
 
@@ -22,29 +24,77 @@
   const codigoLocal = "ZV-" + (canal.replace(/[^a-z]/g, "").slice(0, 3).toUpperCase() || "WEB") + "-" + SES.replace(/-/g, "").slice(0, 4).toUpperCase();
   const waLink = (texto) => `https://wa.me/${C.ZVEZDA_WA}?text=${encodeURIComponent(texto)}`;
 
-  // ---------- Catálogo (nombres para el chat) y filtros de la portada ----------
+  // Nombres de los viajes (para el chat): el de esta página viene en el HTML; los demás, del catálogo.
   let catalogo = [];
   fetch(BASE + "catalogo.json").then((r) => r.json()).then((j) => { catalogo = j; }).catch(() => {});
-  const nombre = (slug) => (catalogo.find((p) => p.slug === slug) || {}).nombre || slug.replace(/-/g, " ");
+  const nombre = (slug) => (slug === PAQUETE && document.body.dataset.nombre) || (catalogo.find((p) => p.slug === slug) || {}).nombre || slug.replace(/-/g, " ");
 
-  const grid = $("#grid"), filtros = $("#filtros");
+  // ---------- Navegación: sombra al bajar y menú del celular ----------
+  const nav = $("#nav"), menu = $("#menu"), botonMenu = $(".nav-menu");
+  const alBajar = () => nav && nav.classList.toggle("fija", scrollY > 12);
+  addEventListener("scroll", alBajar, { passive: true }); alBajar();
+  const ponerMenu = (abrir) => {
+    menu.classList.toggle("abierto", abrir);
+    botonMenu.setAttribute("aria-expanded", String(abrir));
+    botonMenu.setAttribute("aria-label", abrir ? "Cerrar menú" : "Abrir menú");
+    document.body.style.overflow = abrir ? "hidden" : "";
+  };
+  if (menu && botonMenu) {
+    botonMenu.addEventListener("click", () => ponerMenu(!menu.classList.contains("abierto")));
+    menu.addEventListener("click", (e) => { if (e.target.closest("a,button")) ponerMenu(false); });
+  }
+
+  // ---------- Aparición suave al hacer scroll ----------
+  const mostrar = (el) => {
+    el.classList.add("visto");
+    const fin = (ev) => {
+      if (ev.target !== el || ev.propertyName !== "opacity") return;
+      el.classList.remove("rev", "visto"); el.removeEventListener("transitionend", fin);
+    };
+    el.addEventListener("transitionend", fin);
+  };
+  // Se revisa por posición en cada scroll (no depende de IntersectionObserver): nada se queda oculto.
+  let porVer = $$(".rev"), enCola = false;
+  const revisar = () => {
+    enCola = false;
+    const alto = innerHeight;
+    porVer = porVer.filter((el) => {
+      const r = el.getBoundingClientRect();
+      if (!r.width && !r.height) return true;            // oculto por un filtro: se revisa después
+      if (r.top > alto * 0.95) return true;              // todavía abajo de la pantalla
+      mostrar(el); return false;
+    });
+    if (!porVer.length) { removeEventListener("scroll", pedir); removeEventListener("resize", pedir); }
+  };
+  const pedir = () => { if (!enCola) { enCola = true; requestAnimationFrame(revisar); } };
+  addEventListener("scroll", pedir, { passive: true }); addEventListener("resize", pedir); addEventListener("load", pedir);
+  revisar();
+
+  // ---------- Filtros de destinos ----------
+  const grid = $("#grid"), filtros = $("#filtros"), conteo = $("#conteo");
   if (grid && filtros) {
     const cards = [...grid.querySelectorAll(".card")];
     const ORDEN = ["Rusia", "Cáucaso", "Bálticos", "Escandinavia", "Europa del Este", "Asia Central", "Medio Oriente", "Atlántico Norte"];
-    const presentes = ORDEN.filter((r) => cards.some((c) => c.dataset.region === r));
-    const pintar = (activo) => {
-      filtros.replaceChildren(...["Todos", ...presentes].map((r) => {
-        const b = document.createElement("button");
-        b.type = "button"; b.textContent = r; b.dataset.reg = r; b.setAttribute("aria-pressed", String(r === activo));
-        return b;
-      }));
-      cards.forEach((c) => { c.hidden = !(activo === "Todos" || c.dataset.region === activo); });
-    };
-    pintar("Todos");
-    filtros.addEventListener("click", (e) => { const b = e.target.closest("[data-reg]"); if (b) pintar(b.dataset.reg); });
+    const regiones = ["Todos", ...ORDEN.filter((r) => cards.some((c) => c.dataset.region === r))];
+    filtros.replaceChildren(...regiones.map((r) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = r; b.dataset.reg = r; b.setAttribute("aria-pressed", String(r === "Todos"));
+      return b;
+    }));
+    filtros.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-reg]"); if (!b) return;
+      const activo = b.dataset.reg;
+      filtros.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      let n = 0;
+      cards.forEach((c) => { const ver = activo === "Todos" || c.dataset.region === activo; c.hidden = !ver; if (ver) n++; });
+      if (conteo) conteo.textContent = `${n} ${n === 1 ? "viaje" : "viajes"}`;
+      // Al filtrar, las tarjetas entran con su propia animación: ya no esperan a la de scroll
+      cards.forEach((c) => c.classList.remove("rev", "visto"));
+      grid.classList.remove("filtrado"); void grid.offsetWidth; grid.classList.add("filtrado");
+    });
   }
 
-  // ---------- Chat ----------
+  // ---------- Chat con Nadia ----------
   const chat = $("#chat"), msgs = $("#msgs"), rapidas = $("#rapidas");
   let historial = [];
   try { historial = JSON.parse(sessionStorage.getItem("rm_chat") || "[]"); } catch {}
@@ -78,6 +128,7 @@
     rapidas.hidden = historial.some((h) => h.q === "yo");
   }
   function abrirChat() {
+    chat.inert = false;
     chat.classList.add("abierto"); chat.setAttribute("aria-hidden", "false");
     document.body.classList.add("chat-abierto");
     if (!msgs.children.length) {
@@ -87,21 +138,41 @@
         : "¡Hola! Soy Nadia 😊 Cuéntame, ¿con qué viaje andas soñando?");
       sugerencias();
     }
-    if (matchMedia("(min-width: 700px)").matches) setTimeout(() => $("#txt").focus(), 150);
+    if (matchMedia("(min-width: 701px)").matches) setTimeout(() => $("#txt").focus(), 180);
   }
   function cerrarChat() {
-    chat.classList.remove("abierto"); chat.setAttribute("aria-hidden", "true"); document.body.classList.remove("chat-abierto");
+    chat.classList.remove("abierto"); chat.setAttribute("aria-hidden", "true"); chat.inert = true;
+    document.body.classList.remove("chat-abierto");
   }
   $("#cerrar").addEventListener("click", cerrarChat);
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && chat.classList.contains("abierto")) cerrarChat(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (chat.classList.contains("abierto")) cerrarChat();
+    else if (menu && menu.classList.contains("abierto")) ponerMenu(false);
+  });
 
   document.addEventListener("click", (e) => {
-    const t = e.target.closest("[data-abrir-chat],[data-preguntar],[data-rapida]");
+    const t = e.target.closest("[data-abrir-chat],[data-preguntar],[data-rapida],[data-pregunta]");
     if (!t) return;
+    if (t.tagName === "A") e.preventDefault();
     if (t.dataset.rapida) { rapidas.hidden = true; enviar(PAQUETE ? `${t.dataset.rapida} (${nombre(PAQUETE)})` : t.dataset.rapida); return; }
     abrirChat();
-    if (t.dataset.preguntar && !historial.some((h) => h.q === "yo")) enviar(`Hola, me interesa el viaje ${nombre(t.dataset.preguntar)}. ¿Me cuentas más?`);
+    if (t.dataset.pregunta) enviar(t.dataset.pregunta);
+    else if (t.dataset.preguntar && !historial.some((h) => h.q === "yo")) enviar(`Hola, me interesa el viaje ${nombre(t.dataset.preguntar)}. ¿Me cuentas más?`);
   });
+
+  // Barra de la portada: lo que la persona escribe ahí abre el chat y se lo manda a Nadia
+  const heroForm = $("#hero-form"), heroTxt = $("#hero-txt");
+  if (heroForm && heroTxt) {
+    heroForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const t = heroTxt.value.trim(); heroTxt.value = ""; heroTxt.blur();
+      abrirChat(); if (t) enviar(t);
+    });
+    const ejemplos = ["Quiero ver auroras boreales en febrero…", "¿Qué necesito para viajar a Rusia?", "Luna de miel en San Petersburgo…", "Un viaje en tren por Siberia…", "Somos 4 y tenemos 10 días…"];
+    let i = 0;
+    setInterval(() => { if (document.activeElement !== heroTxt && !heroTxt.value) heroTxt.placeholder = ejemplos[++i % ejemplos.length]; }, 3400);
+  }
 
   let ocupado = false;
   const pendientes = []; // lo que la persona escribe mientras Nadia contesta: se junta y se manda después
