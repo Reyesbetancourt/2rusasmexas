@@ -83,8 +83,8 @@
     if (!msgs.children.length) {
       if (historial.length) historial.forEach((h) => burbuja(h.q, h.t, h.wa));
       else burbuja("ella", PAQUETE
-        ? `Hola, soy Nadia ✨ ¿Te late el viaje ${nombre(PAQUETE)}? Pregúntame lo que quieras.`
-        : "Hola, soy Nadia, la asistente virtual de 2RusasMexas ✨ ¿A dónde te gustaría viajar?");
+        ? `¡Hola! Soy Nadia 😊 Qué buen ojo: ${nombre(PAQUETE)} es de esos viajes que se quedan contigo. ¿Qué te gustaría saber?`
+        : "¡Hola! Soy Nadia 😊 Cuéntame, ¿con qué viaje andas soñando?");
       sugerencias();
     }
     if (matchMedia("(min-width: 700px)").matches) setTimeout(() => $("#txt").focus(), 150);
